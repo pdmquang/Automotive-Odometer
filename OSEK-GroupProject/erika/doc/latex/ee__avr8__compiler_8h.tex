@@ -1,0 +1,55 @@
+\hypertarget{ee__avr8__compiler_8h}{}\section{inc/ee\+\_\+avr8\+\_\+compiler.h File Reference}
+\label{ee__avr8__compiler_8h}\index{inc/ee\+\_\+avr8\+\_\+compiler.\+h@{inc/ee\+\_\+avr8\+\_\+compiler.\+h}}
+
+
+A\+V\+R8 G\+CC Compiler Definitions.  
+
+
+{\ttfamily \#include \char`\"{}ee\+\_\+cfg.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}ee\+\_\+compiler.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}ee\+\_\+utils.\+h\char`\"{}}\\*
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define {\bfseries O\+S\+E\+E\+\_\+\+P\+R\+E\+P\+R\+O\+C\+\_\+\+V\+A\+R\+\_\+\+V\+A\+L\+UE}(v)~\#v \char`\"{}=\char`\"{} O\+S\+E\+E\+\_\+S(v)\hypertarget{ee__avr8__compiler_8h_aede836b55b2e3d7b7efe7b9bb3175992}{}\label{ee__avr8__compiler_8h_aede836b55b2e3d7b7efe7b9bb3175992}
+
+\item 
+\#define \hyperlink{ee__avr8__compiler_8h_adaaf463909708a5aa38b67b126748a88}{O\+S\+E\+E\+\_\+\+R\+E\+T\+U\+RN}()~\+\_\+\+\_\+asm\+\_\+\+\_\+ \+\_\+\+\_\+volatile\+\_\+\+\_\+ (\char`\"{}ret\char`\"{} \+::)
+\begin{DoxyCompactList}\small\item\em Returns from a function. \end{DoxyCompactList}\item 
+\#define \hyperlink{ee__avr8__compiler_8h_a8ffbd9f5122af609d93733d76d62356f}{O\+S\+E\+E\+\_\+\+N\+A\+K\+ED}~\+\_\+\+\_\+attribute\+\_\+\+\_\+((naked))
+\begin{DoxyCompactList}\small\item\em The function is created with no prologue or epilogue code. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This file contains all the compiler-\/dependent definitions for G\+NU G\+CC Compiler for A\+V\+R8 Architecture.
+
+\begin{DoxyNote}{Note}
+This file {\bfseries M\+U\+ST} contain only {\ttfamily \#defines}, because it is also included by the {\ttfamily }.S files. ~\newline
+ 
+
+TO BE D\+O\+C\+U\+M\+E\+N\+T\+E\+D!!!
+\end{DoxyNote}
+\begin{DoxyAuthor}{Author}
+Giuseppe Serano 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2016 
+\end{DoxyDate}
+
+
+\subsection{Macro Definition Documentation}
+\index{ee\+\_\+avr8\+\_\+compiler.\+h@{ee\+\_\+avr8\+\_\+compiler.\+h}!O\+S\+E\+E\+\_\+\+N\+A\+K\+ED@{O\+S\+E\+E\+\_\+\+N\+A\+K\+ED}}
+\index{O\+S\+E\+E\+\_\+\+N\+A\+K\+ED@{O\+S\+E\+E\+\_\+\+N\+A\+K\+ED}!ee\+\_\+avr8\+\_\+compiler.\+h@{ee\+\_\+avr8\+\_\+compiler.\+h}}
+\subsubsection[{\texorpdfstring{O\+S\+E\+E\+\_\+\+N\+A\+K\+ED}{OSEE_NAKED}}]{\setlength{\rightskip}{0pt plus 5cm}\#define O\+S\+E\+E\+\_\+\+N\+A\+K\+ED~\+\_\+\+\_\+attribute\+\_\+\+\_\+((naked))}\hypertarget{ee__avr8__compiler_8h_a8ffbd9f5122af609d93733d76d62356f}{}\label{ee__avr8__compiler_8h_a8ffbd9f5122af609d93733d76d62356f}
+The user code is responsible for preservation of the machine state including the S\+R\+EG register, as well as placing a E\+E\+\_\+return() at the end of the function.
+
+Use this attribute in the attributes parameter of the function. \index{ee\+\_\+avr8\+\_\+compiler.\+h@{ee\+\_\+avr8\+\_\+compiler.\+h}!O\+S\+E\+E\+\_\+\+R\+E\+T\+U\+RN@{O\+S\+E\+E\+\_\+\+R\+E\+T\+U\+RN}}
+\index{O\+S\+E\+E\+\_\+\+R\+E\+T\+U\+RN@{O\+S\+E\+E\+\_\+\+R\+E\+T\+U\+RN}!ee\+\_\+avr8\+\_\+compiler.\+h@{ee\+\_\+avr8\+\_\+compiler.\+h}}
+\subsubsection[{\texorpdfstring{O\+S\+E\+E\+\_\+\+R\+E\+T\+U\+RN}{OSEE_RETURN}}]{\setlength{\rightskip}{0pt plus 5cm}\#define O\+S\+E\+E\+\_\+\+R\+E\+T\+U\+RN(
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)~\+\_\+\+\_\+asm\+\_\+\+\_\+ \+\_\+\+\_\+volatile\+\_\+\+\_\+ (\char`\"{}ret\char`\"{} \+::)}\hypertarget{ee__avr8__compiler_8h_adaaf463909708a5aa38b67b126748a88}{}\label{ee__avr8__compiler_8h_adaaf463909708a5aa38b67b126748a88}
+This should be the last command executed before leaving a function defined with the E\+E\+\_\+\+N\+A\+K\+ED attribute.
+
+This macro actually compiles into a single line of assembly, so there is no function call overhead. 

@@ -1,0 +1,76 @@
+\hypertarget{ee__scheduler__types_8h}{}\section{inc/ee\+\_\+scheduler\+\_\+types.h File Reference}
+\label{ee__scheduler__types_8h}\index{inc/ee\+\_\+scheduler\+\_\+types.\+h@{inc/ee\+\_\+scheduler\+\_\+types.\+h}}
+
+
+Contains the types for different scheduler data structures.  
+
+
+{\ttfamily \#include \char`\"{}ee\+\_\+cfg.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}ee\+\_\+utils.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}ee\+\_\+compiler.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}ee\+\_\+platform\+\_\+types.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}ee\+\_\+api\+\_\+types.\+h\char`\"{}}\\*
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct Os\+E\+E\+\_\+\+S\+N\+\_\+tag {\bfseries Os\+E\+E\+\_\+\+SN}\hypertarget{ee__scheduler__types_8h_a1ea683a6d33661b81367f46d32b71b6d}{}\label{ee__scheduler__types_8h_a1ea683a6d33661b81367f46d32b71b6d}
+
+\item 
+typedef Os\+E\+E\+\_\+\+SN $\ast$ {\bfseries Os\+E\+E\+\_\+\+RQ}\hypertarget{ee__scheduler__types_8h_a57c20fab09b2687167c2a5059c43e1b4}{}\label{ee__scheduler__types_8h_a57c20fab09b2687167c2a5059c43e1b4}
+
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{ee__compiler_8h_a4c744b37ed25289d025c28df65653b24}{L\+O\+C\+A\+L\+\_\+\+I\+N\+L\+I\+NE} {\bfseries F\+U\+N\+C\+\_\+\+P2\+V\+AR} (Os\+E\+E\+\_\+\+SN, O\+S\+\_\+\+A\+P\+P\+L\+\_\+\+D\+A\+TA, O\+S\+\_\+\+C\+O\+DE) os\+E\+E\+\_\+sn\+\_\+alloc(\hyperlink{ee__compiler_8h_a5c6ccc28154ea2a7874ba567a352e009}{P2\+V\+AR}(Os\+E\+E\+\_\+\+SN $\ast$\hypertarget{ee__scheduler__types_8h_a0e29a513dee71436897ae8b09ddd2cef}{}\label{ee__scheduler__types_8h_a0e29a513dee71436897ae8b09ddd2cef}
+
+\item 
+\hyperlink{ee__compiler_8h_a4c744b37ed25289d025c28df65653b24}{L\+O\+C\+A\+L\+\_\+\+I\+N\+L\+I\+NE} {\bfseries F\+U\+NC} (void, O\+S\+\_\+\+C\+O\+DE) os\+E\+E\+\_\+sn\+\_\+release(\hyperlink{ee__compiler_8h_a5c6ccc28154ea2a7874ba567a352e009}{P2\+V\+AR}(Os\+E\+E\+\_\+\+SN $\ast$\hypertarget{ee__scheduler__types_8h_af010de461014d4e1e5fbfe3169aa0841}{}\label{ee__scheduler__types_8h_af010de461014d4e1e5fbfe3169aa0841}
+
+\item 
+\hyperlink{ee__compiler_8h_a4c744b37ed25289d025c28df65653b24}{L\+O\+C\+A\+L\+\_\+\+I\+N\+L\+I\+NE} O\+S\+\_\+\+A\+P\+P\+L\+\_\+\+D\+A\+TA {\bfseries P2\+V\+AR} (Os\+E\+E\+\_\+\+SN, \hyperlink{ee__compiler_8h_a0920bccde0219139f4b12c7e85acec9a}{A\+U\+T\+O\+M\+A\+T\+IC}, O\+S\+\_\+\+A\+P\+P\+L\+\_\+\+D\+A\+TA) p\+\_\+to\+\_\+free)\hypertarget{ee__scheduler__types_8h_aabc94cd73759b42f6aaee82bdd4d276e}{}\label{ee__scheduler__types_8h_aabc94cd73759b42f6aaee82bdd4d276e}
+
+\item 
+{\bfseries os\+E\+E\+\_\+sn\+\_\+priority\+\_\+insert} (\hyperlink{ee__compiler_8h_a5c6ccc28154ea2a7874ba567a352e009}{P2\+V\+AR}(Os\+E\+E\+\_\+\+SN $\ast$, \hyperlink{ee__compiler_8h_a0920bccde0219139f4b12c7e85acec9a}{A\+U\+T\+O\+M\+A\+T\+IC}, O\+S\+\_\+\+A\+P\+P\+L\+\_\+\+D\+A\+TA) pp\+\_\+first, \hyperlink{ee__compiler_8h_a5c6ccc28154ea2a7874ba567a352e009}{P2\+V\+AR}(Os\+E\+E\+\_\+\+SN, \hyperlink{ee__compiler_8h_a0920bccde0219139f4b12c7e85acec9a}{A\+U\+T\+O\+M\+A\+T\+IC}, O\+S\+\_\+\+A\+P\+P\+L\+\_\+\+D\+A\+TA) p\+\_\+sn\+\_\+new, \hyperlink{ee__compiler_8h_a976d68445c3d7763a2d3c4ece1d0af05}{C\+O\+N\+ST}(Os\+E\+E\+\_\+bool, \hyperlink{ee__compiler_8h_a0920bccde0219139f4b12c7e85acec9a}{A\+U\+T\+O\+M\+A\+T\+IC}) hnd\+\_\+act)\hypertarget{ee__scheduler__types_8h_abd194ff2d4af4fb09d361be28f266291}{}\label{ee__scheduler__types_8h_abd194ff2d4af4fb09d361be28f266291}
+
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{ee__compiler_8h_a4c744b37ed25289d025c28df65653b24}{L\+O\+C\+A\+L\+\_\+\+I\+N\+L\+I\+NE} {\bfseries A\+U\+T\+O\+M\+A\+T\+IC}\hypertarget{ee__scheduler__types_8h_a0920bccde0219139f4b12c7e85acec9a}{}\label{ee__scheduler__types_8h_a0920bccde0219139f4b12c7e85acec9a}
+
+\item 
+\hyperlink{ee__compiler_8h_a4c744b37ed25289d025c28df65653b24}{L\+O\+C\+A\+L\+\_\+\+I\+N\+L\+I\+NE} O\+S\+\_\+\+A\+P\+P\+L\+\_\+\+D\+A\+TA {\bfseries pp\+\_\+fist}
+\item 
+{\bfseries p\+\_\+sn\+\_\+allocated} = ($\ast$pp\+\_\+fist)\hypertarget{ee__scheduler__types_8h_a87afda27109f924c167371e5cbce1693}{}\label{ee__scheduler__types_8h_a87afda27109f924c167371e5cbce1693}
+
+\item 
+p\+\_\+sn\+\_\+allocated {\bfseries p\+\_\+next} = N\+U\+LL\hypertarget{ee__scheduler__types_8h_abc4ab0ce802791d7bf80e20a4879b36d}{}\label{ee__scheduler__types_8h_abc4ab0ce802791d7bf80e20a4879b36d}
+
+\item 
+\hyperlink{ee__compiler_8h_a4c744b37ed25289d025c28df65653b24}{L\+O\+C\+A\+L\+\_\+\+I\+N\+L\+I\+NE} O\+S\+\_\+\+A\+P\+P\+L\+\_\+\+D\+A\+TA {\bfseries pp\+\_\+first}\hypertarget{ee__scheduler__types_8h_a523f5e1c2cbb4e9bbec31b104b29a750}{}\label{ee__scheduler__types_8h_a523f5e1c2cbb4e9bbec31b104b29a750}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyNote}{Note}
+TO BE D\+O\+C\+U\+M\+E\+N\+T\+E\+D!!!
+\end{DoxyNote}
+\begin{DoxyAuthor}{Author}
+Errico Guidieri 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2016 
+\end{DoxyDate}
+
+
+\subsection{Variable Documentation}
+\index{ee\+\_\+scheduler\+\_\+types.\+h@{ee\+\_\+scheduler\+\_\+types.\+h}!pp\+\_\+fist@{pp\+\_\+fist}}
+\index{pp\+\_\+fist@{pp\+\_\+fist}!ee\+\_\+scheduler\+\_\+types.\+h@{ee\+\_\+scheduler\+\_\+types.\+h}}
+\subsubsection[{\texorpdfstring{pp\+\_\+fist}{pp_fist}}]{\setlength{\rightskip}{0pt plus 5cm}pp\+\_\+fist}\hypertarget{ee__scheduler__types_8h_ad3621b3155ee15c0907e8982ee6d4c57}{}\label{ee__scheduler__types_8h_ad3621b3155ee15c0907e8982ee6d4c57}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+\{
+  \hyperlink{ee__compiler_8h_a5c6ccc28154ea2a7874ba567a352e009}{P2VAR}(OsEE\_SN, \hyperlink{ee__compiler_8h_a0920bccde0219139f4b12c7e85acec9a}{AUTOMATIC}, OS\_APPL\_DATA) p\_sn\_allocated
+\end{DoxyCode}

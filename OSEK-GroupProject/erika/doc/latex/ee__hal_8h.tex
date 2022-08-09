@@ -1,0 +1,42 @@
+\hypertarget{ee__hal_8h}{}\section{inc/ee\+\_\+hal.h File Reference}
+\label{ee__hal_8h}\index{inc/ee\+\_\+hal.\+h@{inc/ee\+\_\+hal.\+h}}
+
+
+H\+AL support visible to the application.  
+
+
+{\ttfamily \#include \char`\"{}ee\+\_\+cfg.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}ee\+\_\+utils.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}ee\+\_\+compiler.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}ee\+\_\+platform\+\_\+types.\+h\char`\"{}}\\*
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define {\bfseries O\+S\+E\+E\+\_\+\+F\+I\+L\+L\+\_\+\+P\+A\+T\+T\+E\+RN}~0x\+A5\+A5\+A5\+A5U\hypertarget{ee__hal_8h_ace5a29cee2f870bbf23ce38cc4dce210}{}\label{ee__hal_8h_ace5a29cee2f870bbf23ce38cc4dce210}
+
+\item 
+\#define {\bfseries O\+S\+E\+E\+\_\+\+F\+I\+L\+L\+\_\+\+A\+R\+R\+AY}(array)~= \{\mbox{[}0 ... (sizeof(array)/sizeof(array\mbox{[}0\+U\mbox{]}) -\/ 1\+U)\mbox{]} = O\+S\+E\+E\+\_\+\+F\+I\+L\+L\+\_\+\+P\+A\+T\+T\+E\+R\+N\}\hypertarget{ee__hal_8h_a0bb9a379cb363c1e2086eb2a1f9080b1}{}\label{ee__hal_8h_a0bb9a379cb363c1e2086eb2a1f9080b1}
+
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+O\+S\+E\+E\+\_\+\+S\+T\+A\+T\+I\+C\+\_\+\+I\+N\+L\+I\+NE Os\+E\+E\+\_\+addr {\bfseries os\+E\+E\+\_\+get\+\_\+\+SP} (void)\hypertarget{ee__hal_8h_a49ba751fda3a754dd5ce48b0bd8398e7}{}\label{ee__hal_8h_a49ba751fda3a754dd5ce48b0bd8398e7}
+
+\item 
+O\+S\+E\+E\+\_\+\+S\+T\+A\+T\+I\+C\+\_\+\+I\+N\+L\+I\+NE Os\+E\+E\+\_\+core\+\_\+id {\bfseries os\+E\+E\+\_\+get\+\_\+curr\+\_\+core\+\_\+id} (void)\hypertarget{ee__hal_8h_adb9d4d8d00fd50c13b23e56d01d63fdd}{}\label{ee__hal_8h_adb9d4d8d00fd50c13b23e56d01d63fdd}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This files contains all H\+AL for a specific Architecture in Erika Enterprise.
+
+\begin{DoxyAuthor}{Author}
+Errico Guidieri 
+
+Giuseppe Serano 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2016 
+\end{DoxyDate}

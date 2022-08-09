@@ -1,0 +1,65 @@
+\hypertarget{ee__compiler__gcc_8h}{}\section{inc/ee\+\_\+compiler\+\_\+gcc.h File Reference}
+\label{ee__compiler__gcc_8h}\index{inc/ee\+\_\+compiler\+\_\+gcc.\+h@{inc/ee\+\_\+compiler\+\_\+gcc.\+h}}
+
+
+Common G\+CC Compilers Definitions.  
+
+
+{\ttfamily \#include \char`\"{}ee\+\_\+arch\+\_\+compiler\+\_\+gcc.\+h\char`\"{}}\\*
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define {\bfseries O\+S\+E\+E\+\_\+\+I\+N\+L\+I\+NE}~inline\hypertarget{ee__compiler__gcc_8h_a9a5fa0a3ded870083af075b0fa88f086}{}\label{ee__compiler__gcc_8h_a9a5fa0a3ded870083af075b0fa88f086}
+
+\item 
+\#define {\bfseries O\+S\+E\+E\+\_\+\+S\+T\+A\+T\+I\+C\+\_\+\+I\+N\+L\+I\+NE}~static inline\hypertarget{ee__compiler__gcc_8h_abb9563920c344956cef4718c142139da}{}\label{ee__compiler__gcc_8h_abb9563920c344956cef4718c142139da}
+
+\item 
+\#define {\bfseries O\+S\+E\+E\+\_\+\+A\+L\+W\+A\+Y\+S\+\_\+\+I\+N\+L\+I\+NE}~\+\_\+\+\_\+attribute\+\_\+\+\_\+((always\+\_\+inline))\hypertarget{ee__compiler__gcc_8h_a80f24d53bc3bf75cf959be5a33aabb8f}{}\label{ee__compiler__gcc_8h_a80f24d53bc3bf75cf959be5a33aabb8f}
+
+\item 
+\#define {\bfseries O\+S\+E\+E\+\_\+\+N\+E\+V\+E\+R\+\_\+\+I\+N\+L\+I\+NE}~\+\_\+\+\_\+attribute\+\_\+\+\_\+((noinline))\hypertarget{ee__compiler__gcc_8h_ae803a41e2119d5a11a30ca09d9a0d29c}{}\label{ee__compiler__gcc_8h_ae803a41e2119d5a11a30ca09d9a0d29c}
+
+\item 
+\#define {\bfseries O\+S\+E\+E\+\_\+\+N\+O\+R\+E\+T\+U\+RN}~\+\_\+\+\_\+attribute\+\_\+\+\_\+((noreturn))\hypertarget{ee__compiler__gcc_8h_ad26c44850182773c7eac7f2bcd9ec375}{}\label{ee__compiler__gcc_8h_ad26c44850182773c7eac7f2bcd9ec375}
+
+\item 
+\#define {\bfseries O\+S\+E\+E\+\_\+\+C\+O\+M\+P\+I\+L\+E\+R\+\_\+\+A\+L\+I\+GN}(a)~\+\_\+\+\_\+attribute\+\_\+\+\_\+((aligned(a)))\hypertarget{ee__compiler__gcc_8h_ad5309ec2836cf6f4a3e930a67715a645}{}\label{ee__compiler__gcc_8h_ad5309ec2836cf6f4a3e930a67715a645}
+
+\item 
+\#define {\bfseries O\+S\+E\+E\+\_\+\+C\+O\+M\+P\+I\+L\+E\+R\+\_\+\+K\+E\+EP}~\+\_\+\+\_\+attribute\+\_\+\+\_\+((used))\hypertarget{ee__compiler__gcc_8h_a052e7cf4322037a5a63a3947f1b585f3}{}\label{ee__compiler__gcc_8h_a052e7cf4322037a5a63a3947f1b585f3}
+
+\item 
+\#define {\bfseries O\+S\+E\+E\+\_\+\+C\+O\+M\+P\+I\+L\+E\+R\+\_\+\+I\+RQ}~\+\_\+\+\_\+attribute\+\_\+\+\_\+((interrupt(I\+RQ)))\hypertarget{ee__compiler__gcc_8h_a7c75d6968ae4ed44a2a18d5960750f50}{}\label{ee__compiler__gcc_8h_a7c75d6968ae4ed44a2a18d5960750f50}
+
+\item 
+\#define \hyperlink{ee__compiler__gcc_8h_a0682e918d1cbb18c08ac93ae9f308205}{O\+S\+E\+E\+\_\+\+B\+A\+R\+R\+I\+ER}()~\+\_\+\+\_\+asm\+\_\+\+\_\+ volatile(\char`\"{}\char`\"{} \+: \+: \+: \char`\"{}memory\char`\"{})
+\begin{DoxyCompactList}\small\item\em Software \char`\"{}memory barrier\char`\"{} (or \char`\"{}memory clobber\char`\"{}) to enforce N\+OT code reordering. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This file contains all the common compiler-\/dependent definitions for G\+NU G\+CC Compiler.
+
+\begin{DoxyNote}{Note}
+This file {\bfseries M\+U\+ST} contain only {\ttfamily defines}, because it is also included by the {\ttfamily }.S files. ~\newline
+ 
+
+TO BE D\+O\+C\+U\+M\+E\+N\+T\+E\+D!!!
+\end{DoxyNote}
+\begin{DoxyAuthor}{Author}
+Errico Guidieri 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2016 
+\end{DoxyDate}
+
+
+\subsection{Macro Definition Documentation}
+\index{ee\+\_\+compiler\+\_\+gcc.\+h@{ee\+\_\+compiler\+\_\+gcc.\+h}!O\+S\+E\+E\+\_\+\+B\+A\+R\+R\+I\+ER@{O\+S\+E\+E\+\_\+\+B\+A\+R\+R\+I\+ER}}
+\index{O\+S\+E\+E\+\_\+\+B\+A\+R\+R\+I\+ER@{O\+S\+E\+E\+\_\+\+B\+A\+R\+R\+I\+ER}!ee\+\_\+compiler\+\_\+gcc.\+h@{ee\+\_\+compiler\+\_\+gcc.\+h}}
+\subsubsection[{\texorpdfstring{O\+S\+E\+E\+\_\+\+B\+A\+R\+R\+I\+ER}{OSEE_BARRIER}}]{\setlength{\rightskip}{0pt plus 5cm}\#define O\+S\+E\+E\+\_\+\+B\+A\+R\+R\+I\+ER(
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)~\+\_\+\+\_\+asm\+\_\+\+\_\+ volatile(\char`\"{}\char`\"{} \+: \+: \+: \char`\"{}memory\char`\"{})}\hypertarget{ee__compiler__gcc_8h_a0682e918d1cbb18c08ac93ae9f308205}{}\label{ee__compiler__gcc_8h_a0682e918d1cbb18c08ac93ae9f308205}
+At compile level. www.\+nongnu.\+org/avr-\/libc/user-\/manual/optimization.html 

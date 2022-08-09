@@ -1,0 +1,119 @@
+\hypertarget{ee__oo__api__osek_8h}{}\section{inc/ee\+\_\+oo\+\_\+api\+\_\+osek.h File Reference}
+\label{ee__oo__api__osek_8h}\index{inc/ee\+\_\+oo\+\_\+api\+\_\+osek.\+h@{inc/ee\+\_\+oo\+\_\+api\+\_\+osek.\+h}}
+
+
+O\+S\+EK Kernel A\+P\+Is.  
+
+
+{\ttfamily \#include \char`\"{}ee\+\_\+hal.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}ee\+\_\+api\+\_\+types.\+h\char`\"{}}\\*
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define {\bfseries O\+S\+D\+E\+F\+A\+U\+L\+T\+A\+P\+P\+M\+O\+DE}~0U\hypertarget{ee__oo__api__osek_8h_ab74c84d2ad642900d7b9233a141137b0}{}\label{ee__oo__api__osek_8h_ab74c84d2ad642900d7b9233a141137b0}
+
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Disable\+All\+Interrupts} (void)\hypertarget{ee__oo__api__osek_8h_ad5f8835f9d48465475c85ebe9a24d494}{}\label{ee__oo__api__osek_8h_ad5f8835f9d48465475c85ebe9a24d494}
+
+\item 
+{\bfseries Enable\+All\+Interrupts} (void)\hypertarget{ee__oo__api__osek_8h_a6c1919dc237787c923c89fbed83b3a89}{}\label{ee__oo__api__osek_8h_a6c1919dc237787c923c89fbed83b3a89}
+
+\item 
+{\bfseries Suspend\+All\+Interrupts} (void)\hypertarget{ee__oo__api__osek_8h_ad889e6b8f521fd3d8a6197c3602a5060}{}\label{ee__oo__api__osek_8h_ad889e6b8f521fd3d8a6197c3602a5060}
+
+\item 
+{\bfseries Resume\+All\+Interrupts} (void)\hypertarget{ee__oo__api__osek_8h_af0d419cc8241480114fd74bff77d336b}{}\label{ee__oo__api__osek_8h_af0d419cc8241480114fd74bff77d336b}
+
+\item 
+{\bfseries Suspend\+O\+S\+Interrupts} (void)\hypertarget{ee__oo__api__osek_8h_a9d4618a1caad73439b862c34a12272d5}{}\label{ee__oo__api__osek_8h_a9d4618a1caad73439b862c34a12272d5}
+
+\item 
+{\bfseries Resume\+O\+S\+Interrupts} (void)\hypertarget{ee__oo__api__osek_8h_ae439afcb1701db758ec6a3a3a00e6060}{}\label{ee__oo__api__osek_8h_ae439afcb1701db758ec6a3a3a00e6060}
+
+\item 
+{\bfseries Start\+OS} (\hyperlink{ee__api__types_8h_a5719bc8ab116c6ac8e22482d6360cf37}{V\+AR}(App\+Mode\+Type, \hyperlink{ee__compiler_8h_a0920bccde0219139f4b12c7e85acec9a}{A\+U\+T\+O\+M\+A\+T\+IC}) Mode)\hypertarget{ee__oo__api__osek_8h_a23f0bc8b42299ea26a8fe9bd639a19db}{}\label{ee__oo__api__osek_8h_a23f0bc8b42299ea26a8fe9bd639a19db}
+
+\item 
+{\bfseries Get\+Active\+Application\+Mode} (void)\hypertarget{ee__oo__api__osek_8h_affe89e2b39463164f5d6ec1886b6a205}{}\label{ee__oo__api__osek_8h_affe89e2b39463164f5d6ec1886b6a205}
+
+\item 
+{\bfseries Activate\+Task} (\hyperlink{ee__api__types_8h_a5719bc8ab116c6ac8e22482d6360cf37}{V\+AR}(Task\+Type, \hyperlink{ee__compiler_8h_a0920bccde0219139f4b12c7e85acec9a}{A\+U\+T\+O\+M\+A\+T\+IC}) Task\+ID)\hypertarget{ee__oo__api__osek_8h_a169b1822c6080d999443c4ef5ad73cc0}{}\label{ee__oo__api__osek_8h_a169b1822c6080d999443c4ef5ad73cc0}
+
+\item 
+{\bfseries Chain\+Task} (\hyperlink{ee__api__types_8h_a5719bc8ab116c6ac8e22482d6360cf37}{V\+AR}(Task\+Type, \hyperlink{ee__compiler_8h_a0920bccde0219139f4b12c7e85acec9a}{A\+U\+T\+O\+M\+A\+T\+IC}) Task\+ID)\hypertarget{ee__oo__api__osek_8h_a926fbdae7ff120163b90d3d1c3f7bc66}{}\label{ee__oo__api__osek_8h_a926fbdae7ff120163b90d3d1c3f7bc66}
+
+\item 
+{\bfseries Terminate\+Task} (void)\hypertarget{ee__oo__api__osek_8h_adee4ce2e97933d664f1582557233ba7c}{}\label{ee__oo__api__osek_8h_adee4ce2e97933d664f1582557233ba7c}
+
+\item 
+{\bfseries Get\+Task\+ID} (\hyperlink{ee__api__types_8h_a5719bc8ab116c6ac8e22482d6360cf37}{V\+AR}(Task\+Ref\+Type, \hyperlink{ee__compiler_8h_a0920bccde0219139f4b12c7e85acec9a}{A\+U\+T\+O\+M\+A\+T\+IC}) Task\+ID)\hypertarget{ee__oo__api__osek_8h_af55e6d733421e053e558e2bac45ea007}{}\label{ee__oo__api__osek_8h_af55e6d733421e053e558e2bac45ea007}
+
+\item 
+{\bfseries Get\+Task\+State} (\hyperlink{ee__api__types_8h_a5719bc8ab116c6ac8e22482d6360cf37}{V\+AR}(Task\+Type, \hyperlink{ee__compiler_8h_a0920bccde0219139f4b12c7e85acec9a}{A\+U\+T\+O\+M\+A\+T\+IC}) Task\+ID, \hyperlink{ee__api__types_8h_a5719bc8ab116c6ac8e22482d6360cf37}{V\+AR}(Task\+State\+Ref\+Type, \hyperlink{ee__compiler_8h_a0920bccde0219139f4b12c7e85acec9a}{A\+U\+T\+O\+M\+A\+T\+IC}) State)\hypertarget{ee__oo__api__osek_8h_ada560608168ac028501ff92cd23a5845}{}\label{ee__oo__api__osek_8h_ada560608168ac028501ff92cd23a5845}
+
+\item 
+{\bfseries Schedule} (void)\hypertarget{ee__oo__api__osek_8h_a916f708ebc2c565170a58ae542c47dd2}{}\label{ee__oo__api__osek_8h_a916f708ebc2c565170a58ae542c47dd2}
+
+\item 
+{\bfseries Get\+Resource} (\hyperlink{ee__api__types_8h_a5719bc8ab116c6ac8e22482d6360cf37}{V\+AR}(Resource\+Type, \hyperlink{ee__compiler_8h_a0920bccde0219139f4b12c7e85acec9a}{A\+U\+T\+O\+M\+A\+T\+IC}) Res\+ID)\hypertarget{ee__oo__api__osek_8h_ad07ddf305466abd7797789708907ac80}{}\label{ee__oo__api__osek_8h_ad07ddf305466abd7797789708907ac80}
+
+\item 
+{\bfseries Release\+Resource} (\hyperlink{ee__api__types_8h_a5719bc8ab116c6ac8e22482d6360cf37}{V\+AR}(Resource\+Type, \hyperlink{ee__compiler_8h_a0920bccde0219139f4b12c7e85acec9a}{A\+U\+T\+O\+M\+A\+T\+IC}) Res\+ID)\hypertarget{ee__oo__api__osek_8h_a0a10a749f9b8a00a4d6e565e320c0967}{}\label{ee__oo__api__osek_8h_a0a10a749f9b8a00a4d6e565e320c0967}
+
+\item 
+{\bfseries Shutdown\+OS} (\hyperlink{ee__api__types_8h_a5719bc8ab116c6ac8e22482d6360cf37}{V\+AR}(\hyperlink{ee__mcu__common__types_8h_a808bee8c3dec881fb329ccdb92c3bb68}{Status\+Type}, \hyperlink{ee__compiler_8h_a0920bccde0219139f4b12c7e85acec9a}{A\+U\+T\+O\+M\+A\+T\+IC}) Error)\hypertarget{ee__oo__api__osek_8h_a4a7a7915700283709afa1943ed8454f4}{}\label{ee__oo__api__osek_8h_a4a7a7915700283709afa1943ed8454f4}
+
+\item 
+{\bfseries Set\+Rel\+Alarm} (\hyperlink{ee__api__types_8h_a5719bc8ab116c6ac8e22482d6360cf37}{V\+AR}(Alarm\+Type, \hyperlink{ee__compiler_8h_a0920bccde0219139f4b12c7e85acec9a}{A\+U\+T\+O\+M\+A\+T\+IC}) Alarm\+ID, \hyperlink{ee__api__types_8h_a5719bc8ab116c6ac8e22482d6360cf37}{V\+AR}(Tick\+Type, \hyperlink{ee__compiler_8h_a0920bccde0219139f4b12c7e85acec9a}{A\+U\+T\+O\+M\+A\+T\+IC}) increment, \hyperlink{ee__api__types_8h_a5719bc8ab116c6ac8e22482d6360cf37}{V\+AR}(Tick\+Type, \hyperlink{ee__compiler_8h_a0920bccde0219139f4b12c7e85acec9a}{A\+U\+T\+O\+M\+A\+T\+IC}) cycle)\hypertarget{ee__oo__api__osek_8h_a47855f6f821e4ee0d5e34a1d3527dfa5}{}\label{ee__oo__api__osek_8h_a47855f6f821e4ee0d5e34a1d3527dfa5}
+
+\item 
+{\bfseries Set\+Abs\+Alarm} (\hyperlink{ee__api__types_8h_a5719bc8ab116c6ac8e22482d6360cf37}{V\+AR}(Alarm\+Type, \hyperlink{ee__compiler_8h_a0920bccde0219139f4b12c7e85acec9a}{A\+U\+T\+O\+M\+A\+T\+IC}) Alarm\+ID, \hyperlink{ee__api__types_8h_a5719bc8ab116c6ac8e22482d6360cf37}{V\+AR}(Tick\+Type, \hyperlink{ee__compiler_8h_a0920bccde0219139f4b12c7e85acec9a}{A\+U\+T\+O\+M\+A\+T\+IC}) start, \hyperlink{ee__api__types_8h_a5719bc8ab116c6ac8e22482d6360cf37}{V\+AR}(Tick\+Type, \hyperlink{ee__compiler_8h_a0920bccde0219139f4b12c7e85acec9a}{A\+U\+T\+O\+M\+A\+T\+IC}) cycle)\hypertarget{ee__oo__api__osek_8h_ad9f21060cd1d7fc96fd96f9e0e6bb230}{}\label{ee__oo__api__osek_8h_ad9f21060cd1d7fc96fd96f9e0e6bb230}
+
+\item 
+{\bfseries Get\+Alarm} (\hyperlink{ee__api__types_8h_a5719bc8ab116c6ac8e22482d6360cf37}{V\+AR}(Alarm\+Type, \hyperlink{ee__compiler_8h_a0920bccde0219139f4b12c7e85acec9a}{A\+U\+T\+O\+M\+A\+T\+IC}) Alarm\+ID, \hyperlink{ee__api__types_8h_a5719bc8ab116c6ac8e22482d6360cf37}{V\+AR}(Tick\+Ref\+Type, \hyperlink{ee__compiler_8h_a0920bccde0219139f4b12c7e85acec9a}{A\+U\+T\+O\+M\+A\+T\+IC}) Tick)\hypertarget{ee__oo__api__osek_8h_aec3039bc0864abe5011aa633bd9d93f7}{}\label{ee__oo__api__osek_8h_aec3039bc0864abe5011aa633bd9d93f7}
+
+\item 
+{\bfseries Get\+Alarm\+Base} (\hyperlink{ee__api__types_8h_a5719bc8ab116c6ac8e22482d6360cf37}{V\+AR}(Alarm\+Type, \hyperlink{ee__compiler_8h_a0920bccde0219139f4b12c7e85acec9a}{A\+U\+T\+O\+M\+A\+T\+IC}) Alarm\+ID, \hyperlink{ee__api__types_8h_a5719bc8ab116c6ac8e22482d6360cf37}{V\+AR}(Alarm\+Base\+Ref\+Type, \hyperlink{ee__compiler_8h_a0920bccde0219139f4b12c7e85acec9a}{A\+U\+T\+O\+M\+A\+T\+IC}) Info)\hypertarget{ee__oo__api__osek_8h_a544c3ff0136e582e3633ed2379b10a22}{}\label{ee__oo__api__osek_8h_a544c3ff0136e582e3633ed2379b10a22}
+
+\item 
+{\bfseries Cancel\+Alarm} (\hyperlink{ee__api__types_8h_a5719bc8ab116c6ac8e22482d6360cf37}{V\+AR}(Alarm\+Type, \hyperlink{ee__compiler_8h_a0920bccde0219139f4b12c7e85acec9a}{A\+U\+T\+O\+M\+A\+T\+IC}) Alarm\+ID)\hypertarget{ee__oo__api__osek_8h_a140223ffe78993140d4799d485d79b25}{}\label{ee__oo__api__osek_8h_a140223ffe78993140d4799d485d79b25}
+
+\item 
+\hyperlink{ee__compiler_8h_a4c744b37ed25289d025c28df65653b24}{L\+O\+C\+A\+L\+\_\+\+I\+N\+L\+I\+NE} {\bfseries F\+U\+NC} (Core\+Id\+Type, O\+S\+\_\+\+C\+O\+DE) Get\+Core\+ID(void)\hypertarget{ee__oo__api__osek_8h_a9e5630dbad78a0e06cdc0656756481a8}{}\label{ee__oo__api__osek_8h_a9e5630dbad78a0e06cdc0656756481a8}
+
+\item 
+{\bfseries Wait\+Event} (\hyperlink{ee__api__types_8h_a5719bc8ab116c6ac8e22482d6360cf37}{V\+AR}(Event\+Mask\+Type, \hyperlink{ee__compiler_8h_a0920bccde0219139f4b12c7e85acec9a}{A\+U\+T\+O\+M\+A\+T\+IC}) Mask)\hypertarget{ee__oo__api__osek_8h_a7511af89ef2c9af917b4c3881af2929c}{}\label{ee__oo__api__osek_8h_a7511af89ef2c9af917b4c3881af2929c}
+
+\item 
+{\bfseries Set\+Event} (\hyperlink{ee__api__types_8h_a5719bc8ab116c6ac8e22482d6360cf37}{V\+AR}(Task\+Type, \hyperlink{ee__compiler_8h_a0920bccde0219139f4b12c7e85acec9a}{A\+U\+T\+O\+M\+A\+T\+IC}) Task\+ID, \hyperlink{ee__api__types_8h_a5719bc8ab116c6ac8e22482d6360cf37}{V\+AR}(Event\+Mask\+Type, \hyperlink{ee__compiler_8h_a0920bccde0219139f4b12c7e85acec9a}{A\+U\+T\+O\+M\+A\+T\+IC}) Mask)\hypertarget{ee__oo__api__osek_8h_a577c0043ace82ed34b3dacfa0c44419f}{}\label{ee__oo__api__osek_8h_a577c0043ace82ed34b3dacfa0c44419f}
+
+\item 
+{\bfseries Get\+Event} (\hyperlink{ee__api__types_8h_a5719bc8ab116c6ac8e22482d6360cf37}{V\+AR}(Task\+Type, \hyperlink{ee__compiler_8h_a0920bccde0219139f4b12c7e85acec9a}{A\+U\+T\+O\+M\+A\+T\+IC}) Task\+ID, \hyperlink{ee__api__types_8h_a5719bc8ab116c6ac8e22482d6360cf37}{V\+AR}(Event\+Mask\+Ref\+Type, \hyperlink{ee__compiler_8h_a0920bccde0219139f4b12c7e85acec9a}{A\+U\+T\+O\+M\+A\+T\+IC}) Event)\hypertarget{ee__oo__api__osek_8h_a3050f757166008f84f9f3a802a209b3b}{}\label{ee__oo__api__osek_8h_a3050f757166008f84f9f3a802a209b3b}
+
+\item 
+{\bfseries Clear\+Event} (\hyperlink{ee__api__types_8h_a5719bc8ab116c6ac8e22482d6360cf37}{V\+AR}(Event\+Mask\+Type, \hyperlink{ee__compiler_8h_a0920bccde0219139f4b12c7e85acec9a}{A\+U\+T\+O\+M\+A\+T\+IC}) Mask)\hypertarget{ee__oo__api__osek_8h_a9231d8e4089b9f841f21b066277f728e}{}\label{ee__oo__api__osek_8h_a9231d8e4089b9f841f21b066277f728e}
+
+\item 
+{\bfseries F\+U\+NC} (void, O\+S\+\_\+\+C\+O\+DE) Startup\+Hook(void)\hypertarget{ee__oo__api__osek_8h_a9821977a198b9b7e56a12e5080293298}{}\label{ee__oo__api__osek_8h_a9821977a198b9b7e56a12e5080293298}
+
+\item 
+{\bfseries Get\+I\+S\+R\+ID} (void)\hypertarget{ee__oo__api__osek_8h_a0ca1f73f2710345ab34ed141b8254bb8}{}\label{ee__oo__api__osek_8h_a0ca1f73f2710345ab34ed141b8254bb8}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This files contains all O\+S\+EK Kernel A\+P\+Is in Erika Enterprise.
+
+\begin{DoxyNote}{Note}
+TO BE D\+O\+C\+U\+M\+E\+N\+T\+E\+D!!!
+\end{DoxyNote}
+\begin{DoxyAuthor}{Author}
+Errico Guidieri 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2016 
+\end{DoxyDate}

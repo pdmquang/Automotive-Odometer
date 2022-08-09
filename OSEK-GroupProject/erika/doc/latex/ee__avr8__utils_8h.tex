@@ -1,0 +1,65 @@
+\hypertarget{ee__avr8__utils_8h}{}\section{inc/ee\+\_\+avr8\+\_\+utils.h File Reference}
+\label{ee__avr8__utils_8h}\index{inc/ee\+\_\+avr8\+\_\+utils.\+h@{inc/ee\+\_\+avr8\+\_\+utils.\+h}}
+
+
+A\+V\+R8 Utilities.  
+
+
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define {\bfseries F\+\_\+\+C\+PU}~32000000\+UL\hypertarget{ee__avr8__utils_8h_a43bafb28b29491ec7f871319b5a3b2f8}{}\label{ee__avr8__utils_8h_a43bafb28b29491ec7f871319b5a3b2f8}
+
+\item 
+\#define {\bfseries E\+E\+\_\+\+D\+E\+L\+AY}(\+\_\+us)~\+\_\+\+\_\+builtin\+\_\+avr\+\_\+delay\+\_\+cycles(E\+E\+\_\+\+M\+C\+U\+\_\+\+U\+S\+\_\+2\+\_\+\+T\+I\+C\+KS((\+\_\+us), F\+\_\+\+C\+PU))\hypertarget{ee__avr8__utils_8h_ae6423c203b1de5f2f7fd1393f3d79b9c}{}\label{ee__avr8__utils_8h_ae6423c203b1de5f2f7fd1393f3d79b9c}
+
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{ee__avr8__utils_8h_ada3a084c570fefd41d4849310adefebf}{E\+E\+\_\+avr8\+\_\+\+Write\+C\+C\+P\+Reg} (volatile E\+E\+\_\+\+U\+R\+EG $\ast$addr, E\+E\+\_\+\+U\+R\+EG value)
+\begin{DoxyCompactList}\small\item\em Write to a C\+C\+P-\/protected 8-\/bit I/O register. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This files contains the interfaces of the utilities for A\+V\+R8 Architecture available in Erika Enterprise.
+
+\begin{DoxyNote}{Note}
+TO BE D\+O\+C\+U\+M\+E\+N\+T\+E\+D!!!
+\end{DoxyNote}
+\begin{DoxyAuthor}{Author}
+Giuseppe Serano 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2016 
+\end{DoxyDate}
+
+
+\subsection{Function Documentation}
+\index{ee\+\_\+avr8\+\_\+utils.\+h@{ee\+\_\+avr8\+\_\+utils.\+h}!E\+E\+\_\+avr8\+\_\+\+Write\+C\+C\+P\+Reg@{E\+E\+\_\+avr8\+\_\+\+Write\+C\+C\+P\+Reg}}
+\index{E\+E\+\_\+avr8\+\_\+\+Write\+C\+C\+P\+Reg@{E\+E\+\_\+avr8\+\_\+\+Write\+C\+C\+P\+Reg}!ee\+\_\+avr8\+\_\+utils.\+h@{ee\+\_\+avr8\+\_\+utils.\+h}}
+\subsubsection[{\texorpdfstring{E\+E\+\_\+avr8\+\_\+\+Write\+C\+C\+P\+Reg(volatile E\+E\+\_\+\+U\+R\+E\+G $\ast$addr, E\+E\+\_\+\+U\+R\+E\+G value)}{EE_avr8_WriteCCPReg(volatile EE_UREG *addr, EE_UREG value)}}]{\setlength{\rightskip}{0pt plus 5cm}void E\+E\+\_\+avr8\+\_\+\+Write\+C\+C\+P\+Reg (
+\begin{DoxyParamCaption}
+\item[{volatile E\+E\+\_\+\+U\+R\+EG $\ast$}]{addr, }
+\item[{E\+E\+\_\+\+U\+R\+EG}]{value}
+\end{DoxyParamCaption}
+)}\hypertarget{ee__avr8__utils_8h_ada3a084c570fefd41d4849310adefebf}{}\label{ee__avr8__utils_8h_ada3a084c570fefd41d4849310adefebf}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em addr} & Address of the I/O register. \\
+\hline
+\mbox{\tt in}  & {\em value} & Value to be written. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing.
+\end{DoxyReturn}
+\begin{DoxyNote}{Note}
+This function is written in assembly because of the timecritial operation of writing to the registers.
+
+C\+CP Register Address\+: 0x0034U
+
+C\+CP I/O register signature\+: 0x\+D8U
+
+I\+N\+T\+E\+R\+R\+U\+P\+TS M\+U\+ST BE D\+I\+S\+A\+B\+L\+E\+D!!! 
+\end{DoxyNote}

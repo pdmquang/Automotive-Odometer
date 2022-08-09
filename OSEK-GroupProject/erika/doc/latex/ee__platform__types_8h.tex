@@ -1,0 +1,105 @@
+\hypertarget{ee__platform__types_8h}{}\section{inc/ee\+\_\+platform\+\_\+types.h File Reference}
+\label{ee__platform__types_8h}\index{inc/ee\+\_\+platform\+\_\+types.\+h@{inc/ee\+\_\+platform\+\_\+types.\+h}}
+
+
+Platform Types.  
+
+
+{\ttfamily \#include \char`\"{}ee\+\_\+cfg.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}ee\+\_\+compiler.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}ee\+\_\+utils.\+h\char`\"{}}\\*
+{\ttfamily \#include $<$limits.\+h$>$}\\*
+{\ttfamily \#include $<$stddef.\+h$>$}\\*
+{\ttfamily \#include $<$stdint.\+h$>$}\\*
+{\ttfamily \#include \char`\"{}ee\+\_\+avr8\+\_\+compiler.\+h\char`\"{}}\\*
+{\ttfamily \#include $<$avr/interrupt.\+h$>$}\\*
+{\ttfamily \#include $<$avr/io.\+h$>$}\\*
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define {\bfseries O\+S\+E\+E\+\_\+\+S\+H\+U\+T\+D\+O\+W\+N\+\_\+\+D\+O\+\_\+\+N\+O\+T\+\_\+\+R\+E\+T\+U\+R\+N\+\_\+\+O\+N\+\_\+\+M\+A\+IN}\hypertarget{ee__platform__types_8h_a1b07afb6c4692fe654c8a3fad392f738}{}\label{ee__platform__types_8h_a1b07afb6c4692fe654c8a3fad392f738}
+
+\item 
+\#define {\bfseries O\+S\+E\+E\+\_\+\+B\+O\+O\+L\+\_\+\+T\+Y\+PE}~Os\+E\+E\+\_\+bool\hypertarget{ee__platform__types_8h_ae253a1d2b9caed593d5d8b72f5b53bda}{}\label{ee__platform__types_8h_ae253a1d2b9caed593d5d8b72f5b53bda}
+
+\item 
+\#define {\bfseries O\+S\+E\+E\+\_\+\+O\+B\+J\+E\+C\+T\+\_\+\+I\+D\+\_\+\+T\+Y\+PE}~Os\+E\+E\+\_\+object\+\_\+id\+\_\+type\hypertarget{ee__platform__types_8h_a7ee6211b1fd9e56e2562064cdf569016}{}\label{ee__platform__types_8h_a7ee6211b1fd9e56e2562064cdf569016}
+
+\item 
+\#define {\bfseries O\+S\+E\+E\+\_\+\+M\+E\+M\+\_\+\+S\+I\+Z\+E\+\_\+\+T\+Y\+PE}~Os\+E\+E\+\_\+mem\+\_\+size\hypertarget{ee__platform__types_8h_adc07ba712eefc8cd90a18816d00b86c5}{}\label{ee__platform__types_8h_adc07ba712eefc8cd90a18816d00b86c5}
+
+\item 
+\#define {\bfseries O\+S\+E\+E\+\_\+\+T\+I\+C\+K\+\_\+\+T\+Y\+PE}~Os\+E\+E\+\_\+tick\+\_\+type\hypertarget{ee__platform__types_8h_ad742f4dedbc7330a67dc26e27ae8ff1a}{}\label{ee__platform__types_8h_ad742f4dedbc7330a67dc26e27ae8ff1a}
+
+\item 
+\#define {\bfseries O\+S\+E\+E\+\_\+\+E\+V\+E\+N\+T\+\_\+\+M\+A\+S\+K\+\_\+\+T\+Y\+PE}~Os\+E\+E\+\_\+event\+\_\+mask\hypertarget{ee__platform__types_8h_a868892df9018c5b5cd07f92ab7d99a56}{}\label{ee__platform__types_8h_a868892df9018c5b5cd07f92ab7d99a56}
+
+\item 
+\#define {\bfseries O\+S\+E\+E\+\_\+\+I\+S\+R\+\_\+\+S\+O\+U\+R\+C\+E\+\_\+\+T\+Y\+PE}~Os\+E\+E\+\_\+isr\+\_\+src\+\_\+id\hypertarget{ee__platform__types_8h_adcf26712df8bfc01187167aa4a6c1217}{}\label{ee__platform__types_8h_adcf26712df8bfc01187167aa4a6c1217}
+
+\item 
+\#define {\bfseries O\+S\+E\+E\+\_\+\+C\+O\+R\+E\+\_\+\+I\+D\+\_\+\+T\+Y\+PE}~Os\+E\+E\+\_\+core\+\_\+id\hypertarget{ee__platform__types_8h_a08d2156a0f2fd93d9530f0e3aa6a1c40}{}\label{ee__platform__types_8h_a08d2156a0f2fd93d9530f0e3aa6a1c40}
+
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef void $\ast$ {\bfseries Os\+E\+E\+\_\+addr}\hypertarget{ee__platform__types_8h_a080118619d5c09ae9702133cfd2ed4e6}{}\label{ee__platform__types_8h_a080118619d5c09ae9702133cfd2ed4e6}
+
+\item 
+typedef uint8\+\_\+t {\bfseries Os\+E\+E\+\_\+reg}\hypertarget{ee__platform__types_8h_aa76e97ffcec918a8ec364a4a0cd4fe8c}{}\label{ee__platform__types_8h_aa76e97ffcec918a8ec364a4a0cd4fe8c}
+
+\item 
+typedef uint8\+\_\+t {\bfseries Os\+E\+E\+\_\+stack}\hypertarget{ee__platform__types_8h_a384818233b77f44cac5ad77def26c623}{}\label{ee__platform__types_8h_a384818233b77f44cac5ad77def26c623}
+
+\item 
+typedef uint16\+\_\+t {\bfseries Os\+E\+E\+\_\+uint16}\hypertarget{ee__platform__types_8h_ab5fbced671d6b81f3277eed1ab8341b1}{}\label{ee__platform__types_8h_ab5fbced671d6b81f3277eed1ab8341b1}
+
+\item 
+typedef uint16\+\_\+t {\bfseries Os\+E\+E\+\_\+object\+\_\+id\+\_\+type}\hypertarget{ee__platform__types_8h_ab8f9f07e25d33f78a3930beea8049d36}{}\label{ee__platform__types_8h_ab8f9f07e25d33f78a3930beea8049d36}
+
+\item 
+typedef uint16\+\_\+t {\bfseries Os\+E\+E\+\_\+mem\+\_\+size}\hypertarget{ee__platform__types_8h_a295657e067283952b2095e5bfe75a6c7}{}\label{ee__platform__types_8h_a295657e067283952b2095e5bfe75a6c7}
+
+\item 
+typedef uint16\+\_\+t {\bfseries Os\+E\+E\+\_\+tick\+\_\+type}\hypertarget{ee__platform__types_8h_aaef1d33092aea9f0a92a1d0a0ff4c76d}{}\label{ee__platform__types_8h_aaef1d33092aea9f0a92a1d0a0ff4c76d}
+
+\item 
+typedef uint16\+\_\+t {\bfseries Os\+E\+E\+\_\+event\+\_\+mask}\hypertarget{ee__platform__types_8h_a876a3cde8672c1389dfe81482d8eb787}{}\label{ee__platform__types_8h_a876a3cde8672c1389dfe81482d8eb787}
+
+\item 
+typedef uint8\+\_\+t {\bfseries Os\+E\+E\+\_\+isr\+\_\+src\+\_\+id}\hypertarget{ee__platform__types_8h_a4d4ff48c81739189da7dfaeb12fba32c}{}\label{ee__platform__types_8h_a4d4ff48c81739189da7dfaeb12fba32c}
+
+\item 
+typedef uint8\+\_\+t {\bfseries Os\+E\+E\+\_\+core\+\_\+id}\hypertarget{ee__platform__types_8h_a049a2cbeca1a788ce986a6c5a6abda28}{}\label{ee__platform__types_8h_a049a2cbeca1a788ce986a6c5a6abda28}
+
+\item 
+typedef void($\ast$ {\bfseries Os\+E\+E\+\_\+void\+\_\+cb}) (void)\hypertarget{ee__platform__types_8h_a0d4b7151b5ae937a191f14f000f092bc}{}\label{ee__platform__types_8h_a0d4b7151b5ae937a191f14f000f092bc}
+
+\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum {\bfseries Os\+E\+E\+\_\+bool} \{ {\bfseries O\+S\+E\+E\+\_\+\+F\+A\+L\+SE} = O\+S\+E\+E\+\_\+\+M\+\_\+\+F\+A\+L\+SE, 
+{\bfseries O\+S\+E\+E\+\_\+\+T\+R\+UE} = O\+S\+E\+E\+\_\+\+M\+\_\+\+T\+R\+UE
+ \}\hypertarget{ee__platform__types_8h_ae4ce8d6e1d6a72fece80207a7e8772dd}{}\label{ee__platform__types_8h_ae4ce8d6e1d6a72fece80207a7e8772dd}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This files contains all types and symbols for a specific Architecture in Erika Enterprise.
+
+\begin{DoxyNote}{Note}
+C\+O\+U\+LD BE raplaced by A\+U\+T\+O\+S\+AR Type definition paradigm or being the implementation. 
+
+TO BE D\+O\+C\+U\+M\+E\+N\+T\+E\+D!!!
+\end{DoxyNote}
+\begin{DoxyAuthor}{Author}
+Errico Guidieri 
+
+Giuseppe Serano 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2016 
+\end{DoxyDate}

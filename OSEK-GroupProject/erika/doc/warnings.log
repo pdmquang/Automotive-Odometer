@@ -1,0 +1,250 @@
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_hal_internal_types.h:42: warning: the name `ee_internal_types.h' supplied as the second argument in the \file statement is not an input file
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:370: warning: member with no name found.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:96: warning: documented symbol `OS Application contexts enum used to implement Autosar OS' was not declared or defined.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:61: warning: Member OSEE_APPMODE_TYPE (macro definition) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:64: warning: Member INVALID_APPMODE (macro definition) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:67: warning: Member OSEE_TASK_ID_TYPE (macro definition) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:73: warning: Member INVALID_TASK (macro definition) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:74: warning: Member INVALID_ISR (macro definition) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:77: warning: Member OSEE_TASK_PRIO_TYPE (macro definition) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:80: warning: Member OSEE_ISR2_PRIO_BIT (macro definition) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:81: warning: Member OSEE_ISR_ALL_PRIO (macro definition) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:89: warning: Member OSEE_TASK_ACTIVATION_TYPE (macro definition) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:99: warning: Member OSEE_TASK_FUNC_TYPE(task_func_type_name) (macro definition) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:129: warning: Member SUSPENDED (macro definition) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:130: warning: Member READY (macro definition) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:131: warning: Member WAITING (macro definition) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:132: warning: Member RUNNING (macro definition) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:139: warning: Member OSEE_COUNTER_TYPE (macro definition) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:153: warning: Member OSEE_ALARM_ID_TYPE (macro definition) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:158: warning: Member INVALID_ALARM (macro definition) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:176: warning: Member DeclareAlarm(Alarm) (macro definition) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:179: warning: Member ALARMCALLBACK(cbk) (macro definition) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:184: warning: Member OSEE_RESOURCE_ID_TYPE (macro definition) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:189: warning: Member INVALID_RESOURCE (macro definition) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:192: warning: Member DeclareResource(Res) (macro definition) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:206: warning: Member DeclareEvent(Event) (macro definition) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:215: warning: Member INVALID_OBJECT_ID (macro definition) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:222: warning: Member INVALID_INDEX (macro definition) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:223: warning: Member OSEE_SYSTEM_STACK (macro definition) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:376: warning: Member TASK_FUNC(Task) (macro definition) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:377: warning: Member DeclareTask(Task) (macro definition) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:378: warning: Member TASK(Task) (macro definition) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:63: warning: Member AppModeType (typedef) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:69: warning: Member TaskType (typedef) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:70: warning: Member ISRType (typedef) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:79: warning: Member TaskPrio (typedef) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:86: warning: Member ISRSource (typedef) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:91: warning: Member TaskActivation (typedef) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:96: warning: Member CoreIdType (typedef) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:102: warning: Member TaskFunc)(void) (typedef) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:127: warning: Member OsEE_task_status (typedef) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:141: warning: Member CounterType (typedef) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:147: warning: Member TickType (typedef) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:156: warning: Member AlarmType (typedef) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:187: warning: Member ResourceType (typedef) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:200: warning: Member EventMaskType (typedef) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:213: warning: Member ObjectIDType (typedef) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:220: warning: Member MemSize (typedef) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:262: warning: Member OsEE_status_type (typedef) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:264: warning: Member StatusType (typedef) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:275: warning: Member OsEE_api_param (typedef) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:368: warning: Member OsEE_service_id_type (typedef) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:371: warning: Member OSServiceIdType (typedef) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:118: warning: Member OsEE_task_status_tag (enumeration) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:228: warning: Member OsEE_status_type_tag (enumeration) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:282: warning: Member OsEE_service_id_type_tag (enumeration) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:72: warning: Member P2VAR(TaskType, TYPEDEF, OS_APPL_DATA) TaskRefType (function) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:116: warning: Member VAR(OsEE_task_type, TYPEDEF) TaskExecutionType (function) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:134: warning: Member VAR(OsEE_task_status, TYPEDEF) TaskStateType (function) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:135: warning: Member P2VAR(TaskStateType, TYPEDEF, OS_APPL_DATA) TaskStateRefType (function) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:148: warning: Member P2VAR(TickType, TYPEDEF, OS_APPL_DATA) TickRefType (function) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:173: warning: Member P2VAR(AlarmBaseType, TYPEDEF, OS_APPL_DATA) AlarmBaseRefType (function) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:202: warning: Member P2VAR(EventMaskType, TYPEDEF, OS_APPL_DATA) EventMaskRefType (function) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:171: warning: Member AlarmBaseType (variable) of file ee_api_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:282: warning: parameters of member OsEE_service_id_type_tag are not (all) documented
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:118: warning: parameters of member OsEE_task_status_tag are not (all) documented
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_api_types.h:160: warning: return type of member VAR is not documented
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_arch_compiler_gcc.h:63: warning: Member OSEE_INIT (macro definition) of file ee_arch_compiler_gcc.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_avr8_compiler.h:67: warning: Member OSEE_PREPROC_VAR_VALUE(v) (macro definition) of file ee_avr8_compiler.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_avr8_compiler.h:47: warning: explicit link request to 'defines' could not be resolved
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_avr8_irq.h:60: warning: Member DeclareIsr1(f) (macro definition) of file ee_avr8_irq.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_avr8_irq.h:63: warning: Member ISR1(f) (macro definition) of file ee_avr8_irq.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_avr8_irq.h:66: warning: Member DeclareIsr2(f) (macro definition) of file ee_avr8_irq.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_avr8_irq.h:69: warning: Member ISR2(f) (macro definition) of file ee_avr8_irq.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_avr8_irqstub.h:85: warning: Member OSEE_AVR8_PROVIDE_IRQ_ENTRY(entry) (macro definition) of file ee_avr8_irqstub.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_avr8_irqstub.h:91: warning: Member OSEE_AVR8_REQUEST_IRQ_ENTRY(entry) (macro definition) of file ee_avr8_irqstub.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_avr8_irqstub.h:97: warning: Member OSEE_AVR8_ISR_PRESTUB() (macro definition) of file ee_avr8_irqstub.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_avr8_irqstub.h:103: warning: Member OSEE_AVR8_ISR_PREINSTUB() (macro definition) of file ee_avr8_irqstub.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_avr8_irqstub.h:125: warning: Member OSEE_AVR8_ISR_POSTSTUB() (macro definition) of file ee_avr8_irqstub.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_avr8_irqstub.h:131: warning: Member OSEE_AVR8_ISR_POSTINSTUB() (macro definition) of file ee_avr8_irqstub.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_avr8_irqstub.h:151: warning: Member OSEE_AVR8_ISR1_DEFINITION(v, f) (macro definition) of file ee_avr8_irqstub.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_avr8_irqstub.h:165: warning: Member OSEE_AVR8_ISR2_DEFINITION(v, t) (macro definition) of file ee_avr8_irqstub.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_avr8_irqstub.h:177: warning: Member OSEE_AVR8_ISR_NOT_DEFINED(v) (macro definition) of file ee_avr8_irqstub.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_avr8_irqstub.h:67: warning: Member osEE_avr8_isr1_stub(OsEE_void_cb f) (function) of file ee_avr8_irqstub.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_avr8_irqstub.h:72: warning: Member osEE_avr8_isr2_stub(TaskType t) (function) of file ee_avr8_irqstub.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_avr8_irqstub.h:151: warning: parameters of member OSEE_AVR8_ISR1_DEFINITION are not (all) documented
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_avr8_irqstub.h:165: warning: parameters of member OSEE_AVR8_ISR2_DEFINITION are not (all) documented
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_avr8_irqstub.h:177: warning: parameters of member OSEE_AVR8_ISR_NOT_DEFINED are not (all) documented
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_avr8_irqstub.h:131: warning: parameters of member OSEE_AVR8_ISR_POSTINSTUB are not (all) documented
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_avr8_irqstub.h:125: warning: parameters of member OSEE_AVR8_ISR_POSTSTUB are not (all) documented
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_avr8_irqstub.h:103: warning: parameters of member OSEE_AVR8_ISR_PREINSTUB are not (all) documented
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_avr8_irqstub.h:97: warning: parameters of member OSEE_AVR8_ISR_PRESTUB are not (all) documented
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_avr8_utils.h:70: warning: Member F_CPU (macro definition) of file ee_avr8_utils.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_avr8_utils.h:73: warning: Member EE_DELAY(_us) (macro definition) of file ee_avr8_utils.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_compiler.h:115: warning: argument 'type' of command @param is not found in the argument list of CONST(consttype, memclass)
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_compiler.h:120: warning: The following parameters of CONST(consttype, memclass) are not documented:
+  parameter 'consttype'
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_compiler.h:238: warning: argument 'symname' of command @param is not found in the argument list of P2SYM_CONSTP2VAR(type, ptrclass, ptrname)
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_compiler.h:246: warning: The following parameters of P2SYM_CONSTP2VAR(type, ptrclass, ptrname) are not documented:
+  parameter 'ptrname'
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_compiler.h:225: warning: argument 'symname' of command @param is not found in the argument list of P2SYM_P2VAR(type, ptrclass, ptrname)
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_compiler.h:233: warning: The following parameters of P2SYM_P2VAR(type, ptrclass, ptrname) are not documented:
+  parameter 'ptrname'
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_compiler.h:211: warning: argument 'symname' of command @param is not found in the argument list of P2SYM_VAR(type, ptrclass, ptrname)
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_compiler.h:219: warning: The following parameters of P2SYM_VAR(type, ptrclass, ptrname) are not documented:
+  parameter 'ptrname'
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_compiler_cfg.h:66: warning: Member OSEE_CONST (macro definition) of file ee_compiler_cfg.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_compiler_cfg.h:83: warning: Member OS_CODE (macro definition) of file ee_compiler_cfg.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_compiler_cfg.h:88: warning: Member OS_VAR_NO_INIT (macro definition) of file ee_compiler_cfg.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_compiler_cfg.h:93: warning: Member OS_VAR_CLEARED (macro definition) of file ee_compiler_cfg.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_compiler_cfg.h:99: warning: Member OS_VAR_POWER_ON_CLEARED (macro definition) of file ee_compiler_cfg.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_compiler_cfg.h:105: warning: Member OS_VAR_INIT (macro definition) of file ee_compiler_cfg.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_compiler_cfg.h:109: warning: Member OS_CONST (macro definition) of file ee_compiler_cfg.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_compiler_cfg.h:113: warning: Member OS_APPL_DATA (macro definition) of file ee_compiler_cfg.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_compiler_cfg.h:117: warning: Member OS_APPL_CONST (macro definition) of file ee_compiler_cfg.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_compiler_cfg.h:121: warning: Member REGSPACE (macro definition) of file ee_compiler_cfg.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_compiler_cfg.h:125: warning: Member OS_STACK (macro definition) of file ee_compiler_cfg.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_compiler_cfg.h:129: warning: Member OS_CODE_NO_RETURN (macro definition) of file ee_compiler_cfg.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_compiler_cfg.h:133: warning: Member OS_CODE_INIT (macro definition) of file ee_compiler_cfg.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_compiler_gcc.h:78: warning: Member OSEE_INLINE (macro definition) of file ee_compiler_gcc.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_compiler_gcc.h:79: warning: Member OSEE_STATIC_INLINE (macro definition) of file ee_compiler_gcc.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_compiler_gcc.h:82: warning: Member OSEE_ALWAYS_INLINE (macro definition) of file ee_compiler_gcc.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_compiler_gcc.h:83: warning: Member OSEE_NEVER_INLINE (macro definition) of file ee_compiler_gcc.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_compiler_gcc.h:84: warning: Member OSEE_NORETURN (macro definition) of file ee_compiler_gcc.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_compiler_gcc.h:85: warning: Member OSEE_COMPILER_ALIGN(a) (macro definition) of file ee_compiler_gcc.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_compiler_gcc.h:86: warning: Member OSEE_COMPILER_KEEP (macro definition) of file ee_compiler_gcc.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_compiler_gcc.h:87: warning: Member OSEE_COMPILER_IRQ (macro definition) of file ee_compiler_gcc.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_get_kernel_and_core.h:70: warning: Member osEE_get_curr_core(void) (function) of file ee_get_kernel_and_core.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_get_kernel_and_core.h:74: warning: Member osEE_get_core(CoreIdType core_id) (function) of file ee_get_kernel_and_core.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_get_kernel_and_core.h:78: warning: Member osEE_get_kernel(void) (function) of file ee_get_kernel_and_core.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_get_kernel_and_core.h:82: warning: Member osEE_lock_kernel(void) (function) of file ee_get_kernel_and_core.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_get_kernel_and_core.h:84: warning: Member osEE_lock_and_get_kernel(void) (function) of file ee_get_kernel_and_core.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_get_kernel_and_core.h:89: warning: Member osEE_unlock_kernel(void) (function) of file ee_get_kernel_and_core.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_get_kernel_and_core.h:91: warning: Member osEE_lock_and_get_curr_core_id(void) (function) of file ee_get_kernel_and_core.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_get_kernel_and_core.h:95: warning: Member osEE_lock_core_id(CoreIdType core_id) (function) of file ee_get_kernel_and_core.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_get_kernel_and_core.h:97: warning: Member osEE_lock_core(OsEE_CDB *const p_cdb) (function) of file ee_get_kernel_and_core.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_get_kernel_and_core.h:99: warning: Member osEE_lock_and_get_core(CoreIdType core_id) (function) of file ee_get_kernel_and_core.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_get_kernel_and_core.h:103: warning: Member osEE_lock_and_get_curr_core(void) (function) of file ee_get_kernel_and_core.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_get_kernel_and_core.h:107: warning: Member osEE_unlock_core_id(CoreIdType core_id) (function) of file ee_get_kernel_and_core.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_get_kernel_and_core.h:109: warning: Member osEE_unlock_core(OsEE_CDB *const p_cdb) (function) of file ee_get_kernel_and_core.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_get_kernel_and_core.h:111: warning: Member osEE_unlock_curr_core(void) (function) of file ee_get_kernel_and_core.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_get_kernel_and_core.h:59: warning: Member KDB (variable) of file ee_get_kernel_and_core.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_get_kernel_and_core.h:60: warning: Member CDB (variable) of file ee_get_kernel_and_core.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_get_kernel_and_core.h:61: warning: Member KCB (variable) of file ee_get_kernel_and_core.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_get_kernel_and_core.h:62: warning: Member CCB (variable) of file ee_get_kernel_and_core.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_hal.h:78: warning: Member OSEE_FILL_PATTERN (macro definition) of file ee_hal.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_hal.h:82: warning: Member OSEE_FILL_ARRAY(array) (macro definition) of file ee_hal.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_hal.h:98: warning: Member osEE_get_SP(void) (function) of file ee_hal.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_hal.h:103: warning: Member osEE_get_curr_core_id(void) (function) of file ee_hal.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:68: warning: Member OSEE_HAS_MUTEX (macro definition) of file ee_kernel_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:76: warning: Member OSEE_HAS_CHECKS (macro definition) of file ee_kernel_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:83: warning: Member OSEE_MAX_BYTE (macro definition) of file ee_kernel_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:86: warning: Member OSEE_CORE_MASK_TYPE (macro definition) of file ee_kernel_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:491: warning: Member OSEE_KERNEL_TERMINATE_ACTIVATION_CB (macro definition) of file ee_kernel_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:88: warning: Member CoreMaskType (typedef) of file ee_kernel_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:111: warning: Member OsEE_os_context (typedef) of file ee_kernel_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:136: warning: Member OsEE_MCB (typedef) of file ee_kernel_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:153: warning: Member OsEE_MDB (typedef) of file ee_kernel_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:170: warning: Member OsEE_TCB (typedef) of file ee_kernel_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:184: warning: Member OsEE_TDB (typedef) of file ee_kernel_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:189: warning: Member OsEE_TW (typedef) of file ee_kernel_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:211: warning: Member OsEE_CounterCB (typedef) of file ee_kernel_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:229: warning: Member OsEE_CounterDB (typedef) of file ee_kernel_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:245: warning: Member OsEE_action_param (typedef) of file ee_kernel_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:250: warning: Member OsEE_action (typedef) of file ee_kernel_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:270: warning: Member OsEE_TriggerCB (typedef) of file ee_kernel_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:282: warning: Member OsEE_TriggerDB (typedef) of file ee_kernel_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:289: warning: Member OsEE_autostart_trigger_info (typedef) of file ee_kernel_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:294: warning: Member OsEE_autostart_trigger (typedef) of file ee_kernel_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:308: warning: Member OsEE_AlarmCB (typedef) of file ee_kernel_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:309: warning: Member OsEE_AlarmDB (typedef) of file ee_kernel_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:319: warning: Member OsEE_autostart_tdb (typedef) of file ee_kernel_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:363: warning: Member OsEE_CCB (typedef) of file ee_kernel_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:388: warning: Member OsEE_CDB (typedef) of file ee_kernel_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:414: warning: Member OsEE_KCB (typedef) of file ee_kernel_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:449: warning: Member OsEE_KDB (typedef) of file ee_kernel_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:99: warning: Member OsEE_os_context_tag (enumeration) of file ee_kernel_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:113: warning: Member OsEE_kernel_status (enumeration) of file ee_kernel_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:231: warning: Member OsEE_action_type (enumeration) of file ee_kernel_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:80: warning: Member P2FUNC(void, OS_APPL_DATA, OsEE_kernel_cb)(void) (function) of file ee_kernel_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:82: warning: Member VAR(unsigned char, TYPEDEF) OsEE_byte (function) of file ee_kernel_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:202: warning: Member P2VAR(struct OsEE_TriggerDB_tag OSEE_CONST, TYPEDEF, OS_APPL_DATA) OsEE_TriggerQ (function) of file ee_kernel_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:477: warning: Member FUNC(void, OS_CODE) osEE_change_context_from_task_end(P2VAR(OsEE_TDB (function) of file ee_kernel_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:481: warning: Member P2VAR(OsEE_TDB, AUTOMATIC, OS_APPL_CONST) p_to) (function) of file ee_kernel_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:480: warning: Member AUTOMATIC (variable) of file ee_kernel_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_kernel_types.h:480: warning: Member p_from (variable) of file ee_kernel_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_oo_api_dynamic.h:91: warning: Member OS_SERVICE_ID_DYNAMIC (macro definition) of file ee_oo_api_dynamic.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_oo_api_extension.h:98: warning: Member OS_SERVICE_ID_EXTENSION (macro definition) of file ee_oo_api_extension.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_oo_api_osek.h:60: warning: Member OSDEFAULTAPPMODE (macro definition) of file ee_oo_api_osek.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_oo_api_osek.h:64: warning: Member DisableAllInterrupts(void) (function) of file ee_oo_api_osek.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_oo_api_osek.h:70: warning: Member EnableAllInterrupts(void) (function) of file ee_oo_api_osek.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_oo_api_osek.h:76: warning: Member SuspendAllInterrupts(void) (function) of file ee_oo_api_osek.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_oo_api_osek.h:82: warning: Member ResumeAllInterrupts(void) (function) of file ee_oo_api_osek.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_oo_api_osek.h:88: warning: Member SuspendOSInterrupts(void) (function) of file ee_oo_api_osek.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_oo_api_osek.h:94: warning: Member ResumeOSInterrupts(void) (function) of file ee_oo_api_osek.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_oo_api_osek.h:100: warning: Member StartOS(VAR(AppModeType, AUTOMATIC) Mode) (function) of file ee_oo_api_osek.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_oo_api_osek.h:106: warning: Member GetActiveApplicationMode(void) (function) of file ee_oo_api_osek.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_oo_api_osek.h:112: warning: Member ActivateTask(VAR(TaskType, AUTOMATIC) TaskID) (function) of file ee_oo_api_osek.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_oo_api_osek.h:118: warning: Member ChainTask(VAR(TaskType, AUTOMATIC) TaskID) (function) of file ee_oo_api_osek.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_oo_api_osek.h:124: warning: Member TerminateTask(void) (function) of file ee_oo_api_osek.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_oo_api_osek.h:130: warning: Member GetTaskID(VAR(TaskRefType, AUTOMATIC) TaskID) (function) of file ee_oo_api_osek.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_oo_api_osek.h:136: warning: Member GetTaskState(VAR(TaskType, AUTOMATIC) TaskID, VAR(TaskStateRefType, AUTOMATIC) State) (function) of file ee_oo_api_osek.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_oo_api_osek.h:143: warning: Member Schedule(void) (function) of file ee_oo_api_osek.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_oo_api_osek.h:150: warning: Member GetResource(VAR(ResourceType, AUTOMATIC) ResID) (function) of file ee_oo_api_osek.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_oo_api_osek.h:156: warning: Member ReleaseResource(VAR(ResourceType, AUTOMATIC) ResID) (function) of file ee_oo_api_osek.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_oo_api_osek.h:163: warning: Member ShutdownOS(VAR(StatusType, AUTOMATIC) Error) (function) of file ee_oo_api_osek.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_oo_api_osek.h:170: warning: Member SetRelAlarm(VAR(AlarmType, AUTOMATIC) AlarmID, VAR(TickType, AUTOMATIC) increment, VAR(TickType, AUTOMATIC) cycle) (function) of file ee_oo_api_osek.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_oo_api_osek.h:178: warning: Member SetAbsAlarm(VAR(AlarmType, AUTOMATIC) AlarmID, VAR(TickType, AUTOMATIC) start, VAR(TickType, AUTOMATIC) cycle) (function) of file ee_oo_api_osek.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_oo_api_osek.h:186: warning: Member GetAlarm(VAR(AlarmType, AUTOMATIC) AlarmID, VAR(TickRefType, AUTOMATIC) Tick) (function) of file ee_oo_api_osek.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_oo_api_osek.h:193: warning: Member GetAlarmBase(VAR(AlarmType, AUTOMATIC) AlarmID, VAR(AlarmBaseRefType, AUTOMATIC) Info) (function) of file ee_oo_api_osek.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_oo_api_osek.h:200: warning: Member CancelAlarm(VAR(AlarmType, AUTOMATIC) AlarmID) (function) of file ee_oo_api_osek.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_oo_api_osek.h:207: warning: Member FUNC(CoreIdType, OS_CODE) GetCoreID(void) (function) of file ee_oo_api_osek.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_oo_api_osek.h:218: warning: Member WaitEvent(VAR(EventMaskType, AUTOMATIC) Mask) (function) of file ee_oo_api_osek.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_oo_api_osek.h:224: warning: Member SetEvent(VAR(TaskType, AUTOMATIC) TaskID, VAR(EventMaskType, AUTOMATIC) Mask) (function) of file ee_oo_api_osek.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_oo_api_osek.h:231: warning: Member GetEvent(VAR(TaskType, AUTOMATIC) TaskID, VAR(EventMaskRefType, AUTOMATIC) Event) (function) of file ee_oo_api_osek.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_oo_api_osek.h:238: warning: Member ClearEvent(VAR(EventMaskType, AUTOMATIC) Mask) (function) of file ee_oo_api_osek.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_oo_api_osek.h:253: warning: Member FUNC(void, OS_CODE) StartupHook(void) (function) of file ee_oo_api_osek.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_oo_api_osek.h:350: warning: Member GetISRID(void) (function) of file ee_oo_api_osek.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_platform_types.h:62: warning: Member OSEE_SHUTDOWN_DO_NOT_RETURN_ON_MAIN (macro definition) of file ee_platform_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_platform_types.h:90: warning: Member OSEE_BOOL_TYPE (macro definition) of file ee_platform_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_platform_types.h:103: warning: Member OSEE_OBJECT_ID_TYPE (macro definition) of file ee_platform_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_platform_types.h:106: warning: Member OSEE_MEM_SIZE_TYPE (macro definition) of file ee_platform_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_platform_types.h:110: warning: Member OSEE_TICK_TYPE (macro definition) of file ee_platform_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_platform_types.h:114: warning: Member OSEE_EVENT_MASK_TYPE (macro definition) of file ee_platform_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_platform_types.h:117: warning: Member OSEE_ISR_SOURCE_TYPE (macro definition) of file ee_platform_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_platform_types.h:120: warning: Member OSEE_CORE_ID_TYPE (macro definition) of file ee_platform_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_platform_types.h:94: warning: Member OsEE_addr (typedef) of file ee_platform_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_platform_types.h:95: warning: Member OsEE_reg (typedef) of file ee_platform_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_platform_types.h:96: warning: Member OsEE_stack (typedef) of file ee_platform_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_platform_types.h:99: warning: Member OsEE_uint16 (typedef) of file ee_platform_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_platform_types.h:102: warning: Member OsEE_object_id_type (typedef) of file ee_platform_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_platform_types.h:105: warning: Member OsEE_mem_size (typedef) of file ee_platform_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_platform_types.h:108: warning: Member OsEE_tick_type (typedef) of file ee_platform_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_platform_types.h:113: warning: Member OsEE_event_mask (typedef) of file ee_platform_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_platform_types.h:116: warning: Member OsEE_isr_src_id (typedef) of file ee_platform_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_platform_types.h:119: warning: Member OsEE_core_id (typedef) of file ee_platform_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_platform_types.h:122: warning: Member OsEE_void_cb)(void) (typedef) of file ee_platform_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_platform_types.h:86: warning: Member OsEE_bool (enumeration) of file ee_platform_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_scheduler_types.h:72: warning: Member OsEE_SN (typedef) of file ee_scheduler_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_scheduler_types.h:159: warning: Member OsEE_RQ (typedef) of file ee_scheduler_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_scheduler_types.h:74: warning: Member FUNC_P2VAR(OsEE_SN, OS_APPL_DATA, OS_CODE) osEE_sn_alloc(P2VAR(OsEE_SN * (function) of file ee_scheduler_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_scheduler_types.h:89: warning: Member FUNC(void, OS_CODE) osEE_sn_release(P2VAR(OsEE_SN * (function) of file ee_scheduler_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_scheduler_types.h:93: warning: Member P2VAR(OsEE_SN, AUTOMATIC, OS_APPL_DATA) p_to_free) (function) of file ee_scheduler_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_scheduler_types.h:101: warning: Member osEE_sn_priority_insert(P2VAR(OsEE_SN *, AUTOMATIC, OS_APPL_DATA) pp_first, P2VAR(OsEE_SN, AUTOMATIC, OS_APPL_DATA) p_sn_new, CONST(OsEE_bool, AUTOMATIC) hnd_act) (function) of file ee_scheduler_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_scheduler_types.h:77: warning: Member AUTOMATIC (variable) of file ee_scheduler_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_scheduler_types.h:77: warning: Member pp_fist (variable) of file ee_scheduler_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_scheduler_types.h:82: warning: Member p_sn_allocated (variable) of file ee_scheduler_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_scheduler_types.h:84: warning: Member p_next (variable) of file ee_scheduler_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_scheduler_types.h:92: warning: Member pp_first (variable) of file ee_scheduler_types.h is not documented.
+/home/user/lab-osek/OSEK-GroupProject/erika/inc/ee_scheduler_types.h:77: warning: parameters of member pp_fist are not (all) documented

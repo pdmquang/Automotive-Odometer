@@ -1,0 +1,174 @@
+\hypertarget{ee__kernel__types_8h}{}\section{inc/ee\+\_\+kernel\+\_\+types.h File Reference}
+\label{ee__kernel__types_8h}\index{inc/ee\+\_\+kernel\+\_\+types.\+h@{inc/ee\+\_\+kernel\+\_\+types.\+h}}
+
+
+O\+S\+EK Kernel Internal Types.  
+
+
+{\ttfamily \#include \char`\"{}ee\+\_\+cfg.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}ee\+\_\+api\+\_\+types.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}ee\+\_\+oo\+\_\+api\+\_\+extension.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}ee\+\_\+hal\+\_\+internal\+\_\+types.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}ee\+\_\+scheduler\+\_\+types.\+h\char`\"{}}\\*
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define {\bfseries O\+S\+E\+E\+\_\+\+H\+A\+S\+\_\+\+M\+U\+T\+EX}\hypertarget{ee__kernel__types_8h_ab8ac628276116f43c3c717bf246d3015}{}\label{ee__kernel__types_8h_ab8ac628276116f43c3c717bf246d3015}
+
+\item 
+\#define {\bfseries O\+S\+E\+E\+\_\+\+H\+A\+S\+\_\+\+C\+H\+E\+C\+KS}\hypertarget{ee__kernel__types_8h_a987ce1533f74acd964f2002e04a7a7dc}{}\label{ee__kernel__types_8h_a987ce1533f74acd964f2002e04a7a7dc}
+
+\item 
+\#define {\bfseries O\+S\+E\+E\+\_\+\+M\+A\+X\+\_\+\+B\+Y\+TE}~((Os\+E\+E\+\_\+byte)-\/1)\hypertarget{ee__kernel__types_8h_adbd069cc0873979538014485ab882b98}{}\label{ee__kernel__types_8h_adbd069cc0873979538014485ab882b98}
+
+\item 
+\#define {\bfseries O\+S\+E\+E\+\_\+\+C\+O\+R\+E\+\_\+\+M\+A\+S\+K\+\_\+\+T\+Y\+PE}~\hyperlink{ee__api__types_8h_a5719bc8ab116c6ac8e22482d6360cf37}{V\+AR}(unsigned char, \hyperlink{ee__compiler_8h_a11a4114a8973be51c022ce946b643033}{T\+Y\+P\+E\+D\+EF})\hypertarget{ee__kernel__types_8h_a0459fb52b97f04dbd6db89b7fb7cb28e}{}\label{ee__kernel__types_8h_a0459fb52b97f04dbd6db89b7fb7cb28e}
+
+\item 
+\#define {\bfseries O\+S\+E\+E\+\_\+\+K\+E\+R\+N\+E\+L\+\_\+\+T\+E\+R\+M\+I\+N\+A\+T\+E\+\_\+\+A\+C\+T\+I\+V\+A\+T\+I\+O\+N\+\_\+\+CB}~\&os\+E\+E\+\_\+scheduler\+\_\+task\+\_\+end\hypertarget{ee__kernel__types_8h_a7f8e3c217da7e1f36c1563ad35fa6a96}{}\label{ee__kernel__types_8h_a7f8e3c217da7e1f36c1563ad35fa6a96}
+
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef O\+S\+E\+E\+\_\+\+C\+O\+R\+E\+\_\+\+M\+A\+S\+K\+\_\+\+T\+Y\+PE {\bfseries Core\+Mask\+Type}\hypertarget{ee__kernel__types_8h_a679c3963e5157e5ec5f771462ffe464c}{}\label{ee__kernel__types_8h_a679c3963e5157e5ec5f771462ffe464c}
+
+\item 
+typedef enum Os\+E\+E\+\_\+os\+\_\+context\+\_\+tag {\bfseries Os\+E\+E\+\_\+os\+\_\+context}\hypertarget{ee__kernel__types_8h_a872c3814bdb5e099f76f793ad196cace}{}\label{ee__kernel__types_8h_a872c3814bdb5e099f76f793ad196cace}
+
+\item 
+typedef struct Os\+E\+E\+\_\+\+M\+C\+B\+\_\+tag {\bfseries Os\+E\+E\+\_\+\+M\+CB}\hypertarget{ee__kernel__types_8h_a53569556e07402e9c387820b7410bf25}{}\label{ee__kernel__types_8h_a53569556e07402e9c387820b7410bf25}
+
+\item 
+typedef struct Os\+E\+E\+\_\+\+M\+D\+B\+\_\+tag {\bfseries Os\+E\+E\+\_\+\+M\+DB}\hypertarget{ee__kernel__types_8h_a321e2d8dbc073e68cb9cda8583d28b52}{}\label{ee__kernel__types_8h_a321e2d8dbc073e68cb9cda8583d28b52}
+
+\item 
+typedef struct Os\+E\+E\+\_\+\+T\+C\+B\+\_\+tag {\bfseries Os\+E\+E\+\_\+\+T\+CB}\hypertarget{ee__kernel__types_8h_ad26fcefcf6beeda467cdc20460ed0672}{}\label{ee__kernel__types_8h_ad26fcefcf6beeda467cdc20460ed0672}
+
+\item 
+typedef struct Os\+E\+E\+\_\+\+T\+D\+B\+\_\+tag {\bfseries Os\+E\+E\+\_\+\+T\+DB}\hypertarget{ee__kernel__types_8h_a09fa6316ce540908359bbc26e7571795}{}\label{ee__kernel__types_8h_a09fa6316ce540908359bbc26e7571795}
+
+\item 
+typedef struct Os\+E\+E\+\_\+\+T\+W\+\_\+tag {\bfseries Os\+E\+E\+\_\+\+TW}\hypertarget{ee__kernel__types_8h_a69f02b21a9f1129c7568db6ed740bdc6}{}\label{ee__kernel__types_8h_a69f02b21a9f1129c7568db6ed740bdc6}
+
+\item 
+typedef struct Os\+E\+E\+\_\+\+Counter\+C\+B\+\_\+tag {\bfseries Os\+E\+E\+\_\+\+Counter\+CB}\hypertarget{ee__kernel__types_8h_a5f5bf662da078a9d5fa70ee41de07a63}{}\label{ee__kernel__types_8h_a5f5bf662da078a9d5fa70ee41de07a63}
+
+\item 
+typedef struct Os\+E\+E\+\_\+\+Counter\+D\+B\+\_\+tag {\bfseries Os\+E\+E\+\_\+\+Counter\+DB}\hypertarget{ee__kernel__types_8h_af6eb0502699bb495da7d327efae02b3e}{}\label{ee__kernel__types_8h_af6eb0502699bb495da7d327efae02b3e}
+
+\item 
+typedef struct Os\+E\+E\+\_\+action\+\_\+param {\bfseries Os\+E\+E\+\_\+action\+\_\+param}\hypertarget{ee__kernel__types_8h_a7609a4b55b5d190dcc2363c34b94b370}{}\label{ee__kernel__types_8h_a7609a4b55b5d190dcc2363c34b94b370}
+
+\item 
+typedef struct Os\+E\+E\+\_\+action\+\_\+tag {\bfseries Os\+E\+E\+\_\+action}\hypertarget{ee__kernel__types_8h_ade1e19d4fcfc97da984b96b2472150de}{}\label{ee__kernel__types_8h_ade1e19d4fcfc97da984b96b2472150de}
+
+\item 
+typedef struct Os\+E\+E\+\_\+\+Trigger\+C\+B\+\_\+tag {\bfseries Os\+E\+E\+\_\+\+Trigger\+CB}\hypertarget{ee__kernel__types_8h_a642e3022bce73ce24c78181736d06657}{}\label{ee__kernel__types_8h_a642e3022bce73ce24c78181736d06657}
+
+\item 
+typedef struct Os\+E\+E\+\_\+\+Trigger\+D\+B\+\_\+tag {\bfseries Os\+E\+E\+\_\+\+Trigger\+DB}\hypertarget{ee__kernel__types_8h_afc1f17d5c14b865b4294b2b1b1c6a683}{}\label{ee__kernel__types_8h_afc1f17d5c14b865b4294b2b1b1c6a683}
+
+\item 
+typedef struct Os\+E\+E\+\_\+autostart\+\_\+trigger\+\_\+info\+\_\+tag {\bfseries Os\+E\+E\+\_\+autostart\+\_\+trigger\+\_\+info}\hypertarget{ee__kernel__types_8h_a3e6c61142ec95183262bc1a0d03a6d4d}{}\label{ee__kernel__types_8h_a3e6c61142ec95183262bc1a0d03a6d4d}
+
+\item 
+typedef struct Os\+E\+E\+\_\+autostart\+\_\+trigger\+\_\+tag {\bfseries Os\+E\+E\+\_\+autostart\+\_\+trigger}\hypertarget{ee__kernel__types_8h_aaebc913b6523a211dc0f68db3dc952b2}{}\label{ee__kernel__types_8h_aaebc913b6523a211dc0f68db3dc952b2}
+
+\item 
+typedef Os\+E\+E\+\_\+\+Trigger\+CB {\bfseries Os\+E\+E\+\_\+\+Alarm\+CB}\hypertarget{ee__kernel__types_8h_a064ede4e72e0f06341fff4f22f25daf2}{}\label{ee__kernel__types_8h_a064ede4e72e0f06341fff4f22f25daf2}
+
+\item 
+typedef Os\+E\+E\+\_\+\+Trigger\+DB {\bfseries Os\+E\+E\+\_\+\+Alarm\+DB}\hypertarget{ee__kernel__types_8h_a1efa569369e60e732e55e57bde7ca634}{}\label{ee__kernel__types_8h_a1efa569369e60e732e55e57bde7ca634}
+
+\item 
+typedef struct Os\+E\+E\+\_\+autostart\+\_\+tdb\+\_\+tag {\bfseries Os\+E\+E\+\_\+autostart\+\_\+tdb}\hypertarget{ee__kernel__types_8h_a274ba885548e275b70f87e41cec1e566}{}\label{ee__kernel__types_8h_a274ba885548e275b70f87e41cec1e566}
+
+\item 
+typedef struct Os\+E\+E\+\_\+\+C\+C\+B\+\_\+tag {\bfseries Os\+E\+E\+\_\+\+C\+CB}\hypertarget{ee__kernel__types_8h_a87bc32cf7b557350fd7e95759df95348}{}\label{ee__kernel__types_8h_a87bc32cf7b557350fd7e95759df95348}
+
+\item 
+typedef struct Os\+E\+E\+\_\+\+C\+D\+B\+\_\+tag {\bfseries Os\+E\+E\+\_\+\+C\+DB}\hypertarget{ee__kernel__types_8h_ad19739e4be087a6e6f34ee2ff816e69a}{}\label{ee__kernel__types_8h_ad19739e4be087a6e6f34ee2ff816e69a}
+
+\item 
+typedef struct Os\+E\+E\+\_\+\+K\+C\+B\+\_\+tag {\bfseries Os\+E\+E\+\_\+\+K\+CB}\hypertarget{ee__kernel__types_8h_ae295a7410d0b864060f7587d2ea69495}{}\label{ee__kernel__types_8h_ae295a7410d0b864060f7587d2ea69495}
+
+\item 
+typedef struct Os\+E\+E\+\_\+\+K\+D\+B\+\_\+tag {\bfseries Os\+E\+E\+\_\+\+K\+DB}\hypertarget{ee__kernel__types_8h_a80ee1c3a7b1ec828859919b13d5fe9a0}{}\label{ee__kernel__types_8h_a80ee1c3a7b1ec828859919b13d5fe9a0}
+
+\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum {\bfseries Os\+E\+E\+\_\+os\+\_\+context\+\_\+tag} \{ \\*
+{\bfseries O\+S\+E\+E\+\_\+\+K\+E\+R\+N\+E\+L\+\_\+\+C\+TX}, 
+{\bfseries O\+S\+E\+E\+\_\+\+T\+A\+S\+K\+\_\+\+C\+TX}, 
+{\bfseries O\+S\+E\+E\+\_\+\+T\+A\+S\+K\+\_\+\+I\+S\+R2\+\_\+\+C\+TX}, 
+{\bfseries O\+S\+E\+E\+\_\+\+E\+R\+R\+O\+R\+H\+O\+O\+K\+\_\+\+C\+TX}, 
+\\*
+{\bfseries O\+S\+E\+E\+\_\+\+P\+R\+O\+T\+E\+C\+T\+I\+O\+N\+H\+O\+O\+K\+\_\+\+C\+TX}, 
+{\bfseries O\+S\+E\+E\+\_\+\+P\+R\+E\+T\+A\+S\+K\+H\+O\+O\+K\+\_\+\+C\+TX}, 
+{\bfseries O\+S\+E\+E\+\_\+\+P\+O\+S\+T\+T\+A\+S\+K\+H\+O\+O\+K\+\_\+\+C\+TX}, 
+{\bfseries O\+S\+E\+E\+\_\+\+S\+T\+A\+R\+T\+U\+P\+H\+O\+O\+K\+\_\+\+C\+TX}, 
+\\*
+{\bfseries O\+S\+E\+E\+\_\+\+S\+H\+U\+T\+D\+O\+W\+N\+H\+O\+O\+K\+\_\+\+C\+TX}, 
+{\bfseries O\+S\+E\+E\+\_\+\+A\+L\+A\+R\+M\+C\+A\+L\+L\+B\+A\+C\+K\+\_\+\+C\+TX}, 
+{\bfseries O\+S\+E\+E\+\_\+\+I\+D\+L\+E\+\_\+\+C\+TX}
+ \}\hypertarget{ee__kernel__types_8h_a71ffca664f6c9b3d9a7aba4f3f167589}{}\label{ee__kernel__types_8h_a71ffca664f6c9b3d9a7aba4f3f167589}
+
+\item 
+enum {\bfseries Os\+E\+E\+\_\+kernel\+\_\+status} \{ {\bfseries O\+S\+E\+E\+\_\+\+K\+E\+R\+N\+E\+L\+\_\+\+S\+T\+O\+P\+P\+ED}, 
+{\bfseries O\+S\+E\+E\+\_\+\+K\+E\+R\+N\+E\+L\+\_\+\+S\+T\+A\+R\+T\+I\+NG}, 
+{\bfseries O\+S\+E\+E\+\_\+\+K\+E\+R\+N\+E\+L\+\_\+\+S\+T\+A\+R\+T\+ED}, 
+{\bfseries O\+S\+E\+E\+\_\+\+K\+E\+R\+N\+E\+L\+\_\+\+S\+H\+U\+T\+D\+O\+WN}
+ \}\hypertarget{ee__kernel__types_8h_a94f0722a0bf2577ff937847aaa4d8b80}{}\label{ee__kernel__types_8h_a94f0722a0bf2577ff937847aaa4d8b80}
+
+\item 
+enum {\bfseries Os\+E\+E\+\_\+action\+\_\+type} \{ {\bfseries O\+S\+E\+E\+\_\+\+A\+C\+T\+I\+O\+N\+\_\+\+T\+A\+SK}, 
+{\bfseries O\+S\+E\+E\+\_\+\+A\+C\+T\+I\+O\+N\+\_\+\+E\+V\+E\+NT}, 
+{\bfseries O\+S\+E\+E\+\_\+\+A\+C\+T\+I\+O\+N\+\_\+\+C\+O\+U\+N\+T\+ER}, 
+{\bfseries O\+S\+E\+E\+\_\+\+A\+C\+T\+I\+O\+N\+\_\+\+C\+A\+L\+L\+B\+A\+CK}
+ \}\hypertarget{ee__kernel__types_8h_a2b36a8d97d4448b1d109012c6bd87a79}{}\label{ee__kernel__types_8h_a2b36a8d97d4448b1d109012c6bd87a79}
+
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+typedef {\bfseries P2\+F\+U\+NC} (void, O\+S\+\_\+\+A\+P\+P\+L\+\_\+\+D\+A\+TA, Os\+E\+E\+\_\+kernel\+\_\+cb)(void)\hypertarget{ee__kernel__types_8h_aa3a541ffaff2bf67feb9663e3e331649}{}\label{ee__kernel__types_8h_aa3a541ffaff2bf67feb9663e3e331649}
+
+\item 
+typedef {\bfseries V\+AR} (unsigned char, \hyperlink{ee__compiler_8h_a11a4114a8973be51c022ce946b643033}{T\+Y\+P\+E\+D\+EF}) Os\+E\+E\+\_\+byte\hypertarget{ee__kernel__types_8h_a54175e0e35e293d8c4b9765744d09f0f}{}\label{ee__kernel__types_8h_a54175e0e35e293d8c4b9765744d09f0f}
+
+\item 
+typedef {\bfseries P2\+V\+AR} (struct Os\+E\+E\+\_\+\+Trigger\+D\+B\+\_\+tag O\+S\+E\+E\+\_\+\+C\+O\+N\+ST, \hyperlink{ee__compiler_8h_a11a4114a8973be51c022ce946b643033}{T\+Y\+P\+E\+D\+EF}, O\+S\+\_\+\+A\+P\+P\+L\+\_\+\+D\+A\+TA) Os\+E\+E\+\_\+\+TriggerQ\hypertarget{ee__kernel__types_8h_a9187a51417cf00a0aeb9204ece5d1aca}{}\label{ee__kernel__types_8h_a9187a51417cf00a0aeb9204ece5d1aca}
+
+\item 
+{\bfseries F\+U\+NC} (void, O\+S\+\_\+\+C\+O\+DE) os\+E\+E\+\_\+change\+\_\+context\+\_\+from\+\_\+task\+\_\+end(\hyperlink{ee__compiler_8h_a5c6ccc28154ea2a7874ba567a352e009}{P2\+V\+AR}(Os\+E\+E\+\_\+\+T\+DB\hypertarget{ee__kernel__types_8h_abc3a0168b11612ca2d36fcb6d9f0ca94}{}\label{ee__kernel__types_8h_abc3a0168b11612ca2d36fcb6d9f0ca94}
+
+\item 
+O\+S\+\_\+\+A\+P\+P\+L\+\_\+\+C\+O\+N\+ST {\bfseries P2\+V\+AR} (Os\+E\+E\+\_\+\+T\+DB, \hyperlink{ee__compiler_8h_a0920bccde0219139f4b12c7e85acec9a}{A\+U\+T\+O\+M\+A\+T\+IC}, O\+S\+\_\+\+A\+P\+P\+L\+\_\+\+C\+O\+N\+ST) p\+\_\+to)\hypertarget{ee__kernel__types_8h_a3f660900a86b5aa041ef122d30044b61}{}\label{ee__kernel__types_8h_a3f660900a86b5aa041ef122d30044b61}
+
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries A\+U\+T\+O\+M\+A\+T\+IC}\hypertarget{ee__kernel__types_8h_a1e21beadf8f392bed30816e8e4714b43}{}\label{ee__kernel__types_8h_a1e21beadf8f392bed30816e8e4714b43}
+
+\item 
+O\+S\+\_\+\+A\+P\+P\+L\+\_\+\+C\+O\+N\+ST {\bfseries p\+\_\+from}\hypertarget{ee__kernel__types_8h_ade558f59e1be924a7795fa4025e5fd2b}{}\label{ee__kernel__types_8h_ade558f59e1be924a7795fa4025e5fd2b}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This files contains all internal types and symbols for O\+S\+EK Kernel support in Erika Enterprise.
+
+\begin{DoxyNote}{Note}
+TO BE D\+O\+C\+U\+M\+E\+N\+T\+E\+D!!!
+\end{DoxyNote}
+\begin{DoxyAuthor}{Author}
+Errico Guidieri 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2016 
+\end{DoxyDate}

@@ -1,0 +1,201 @@
+\hypertarget{ee__avr8__irqstub_8h}{}\section{inc/ee\+\_\+avr8\+\_\+irqstub.h File Reference}
+\label{ee__avr8__irqstub_8h}\index{inc/ee\+\_\+avr8\+\_\+irqstub.\+h@{inc/ee\+\_\+avr8\+\_\+irqstub.\+h}}
+
+
+A\+V\+R8 I\+R\+Qs Internals.  
+
+
+{\ttfamily \#include \char`\"{}ee\+\_\+internal.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}ee\+\_\+avr8\+\_\+irq.\+h\char`\"{}}\\*
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define {\bfseries O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+P\+R\+O\+V\+I\+D\+E\+\_\+\+I\+R\+Q\+\_\+\+E\+N\+T\+RY}(entry)~O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+P\+R\+O\+V\+I\+D\+E\+\_\+\+S\+YM(O\+S\+E\+E\+\_\+\+S\+\_\+J(tag\+\_\+,entry))\hypertarget{ee__avr8__irqstub_8h_a47e1009f68bf2fba2d2db2db4f80f75e}{}\label{ee__avr8__irqstub_8h_a47e1009f68bf2fba2d2db2db4f80f75e}
+
+\item 
+\#define {\bfseries O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+R\+E\+Q\+U\+E\+S\+T\+\_\+\+I\+R\+Q\+\_\+\+E\+N\+T\+RY}(entry)~O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+R\+E\+Q\+U\+E\+S\+T\+\_\+\+S\+YM(O\+S\+E\+E\+\_\+\+S\+\_\+J(tag\+\_\+,entry))\hypertarget{ee__avr8__irqstub_8h_aa0cb2aefc9746f726eeb73639c210240}{}\label{ee__avr8__irqstub_8h_aa0cb2aefc9746f726eeb73639c210240}
+
+\item 
+\#define {\bfseries O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R\+\_\+\+P\+R\+E\+S\+T\+UB}()
+\item 
+\#define {\bfseries O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R\+\_\+\+P\+R\+E\+I\+N\+S\+T\+UB}()
+\item 
+\#define {\bfseries O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R\+\_\+\+P\+O\+S\+T\+S\+T\+UB}()
+\item 
+\#define {\bfseries O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R\+\_\+\+P\+O\+S\+T\+I\+N\+S\+T\+UB}()
+\item 
+\#define {\bfseries O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R1\+\_\+\+D\+E\+F\+I\+N\+I\+T\+I\+ON}(v,  f)
+\item 
+\#define {\bfseries O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R2\+\_\+\+D\+E\+F\+I\+N\+I\+T\+I\+ON}(v,  t)
+\item 
+\#define {\bfseries O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R\+\_\+\+N\+O\+T\+\_\+\+D\+E\+F\+I\+N\+ED}(v)
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void O\+S\+E\+E\+\_\+\+C\+O\+M\+P\+I\+L\+E\+R\+\_\+\+K\+E\+EP {\bfseries os\+E\+E\+\_\+avr8\+\_\+isr1\+\_\+stub} (Os\+E\+E\+\_\+void\+\_\+cb f)\hypertarget{ee__avr8__irqstub_8h_ae5360e938ecc94479913739fc0bd78c2}{}\label{ee__avr8__irqstub_8h_ae5360e938ecc94479913739fc0bd78c2}
+
+\item 
+void O\+S\+E\+E\+\_\+\+C\+O\+M\+P\+I\+L\+E\+R\+\_\+\+K\+E\+EP {\bfseries os\+E\+E\+\_\+avr8\+\_\+isr2\+\_\+stub} (Task\+Type t)\hypertarget{ee__avr8__irqstub_8h_a35a3ce6f1e94303cd81d010a9bf355a5}{}\label{ee__avr8__irqstub_8h_a35a3ce6f1e94303cd81d010a9bf355a5}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This files contains the internals of the I\+R\+Qs support for A\+V\+R8 Architecture available in Erika Enterprise.
+
+\begin{DoxyNote}{Note}
+TO BE D\+O\+C\+U\+M\+E\+N\+T\+E\+D!!!
+\end{DoxyNote}
+\begin{DoxyAuthor}{Author}
+Giuseppe Serano 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2016 
+\end{DoxyDate}
+
+
+\subsection{Macro Definition Documentation}
+\index{ee\+\_\+avr8\+\_\+irqstub.\+h@{ee\+\_\+avr8\+\_\+irqstub.\+h}!O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R1\+\_\+\+D\+E\+F\+I\+N\+I\+T\+I\+ON@{O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R1\+\_\+\+D\+E\+F\+I\+N\+I\+T\+I\+ON}}
+\index{O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R1\+\_\+\+D\+E\+F\+I\+N\+I\+T\+I\+ON@{O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R1\+\_\+\+D\+E\+F\+I\+N\+I\+T\+I\+ON}!ee\+\_\+avr8\+\_\+irqstub.\+h@{ee\+\_\+avr8\+\_\+irqstub.\+h}}
+\subsubsection[{\texorpdfstring{O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R1\+\_\+\+D\+E\+F\+I\+N\+I\+T\+I\+ON}{OSEE_AVR8_ISR1_DEFINITION}}]{\setlength{\rightskip}{0pt plus 5cm}\#define O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R1\+\_\+\+D\+E\+F\+I\+N\+I\+T\+I\+ON(
+\begin{DoxyParamCaption}
+\item[{}]{v, }
+\item[{}]{f}
+\end{DoxyParamCaption}
+)}\hypertarget{ee__avr8__irqstub_8h_a80b8b8d11a8a825324421d964a341969}{}\label{ee__avr8__irqstub_8h_a80b8b8d11a8a825324421d964a341969}
+{\bfseries Value\+:}
+\begin{DoxyCode}
+\textcolor{comment}{/* Declare The ISR User handler */}    \(\backslash\)
+extern \textcolor{keywordtype}{void} f ( \textcolor{keywordtype}{void} );               \(\backslash\)
+ISR(v, ISR\_NAKED)                     \(\backslash\)
+\{                                     \(\backslash\)
+  OSEE\_AVR8\_PROVIDE\_IRQ\_ENTRY(v);     \(\backslash\)
+  OSEE\_AVR8\_ISR\_PRESTUB();            \(\backslash\)
+  osEE\_avr8\_isr1\_stub(f);             \(\backslash\)
+  EE\_AVR8\_ISR\_POSTSTUB();             \(\backslash\)
+  reti();                             \(\backslash\)
+\}
+\end{DoxyCode}
+\index{ee\+\_\+avr8\+\_\+irqstub.\+h@{ee\+\_\+avr8\+\_\+irqstub.\+h}!O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R2\+\_\+\+D\+E\+F\+I\+N\+I\+T\+I\+ON@{O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R2\+\_\+\+D\+E\+F\+I\+N\+I\+T\+I\+ON}}
+\index{O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R2\+\_\+\+D\+E\+F\+I\+N\+I\+T\+I\+ON@{O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R2\+\_\+\+D\+E\+F\+I\+N\+I\+T\+I\+ON}!ee\+\_\+avr8\+\_\+irqstub.\+h@{ee\+\_\+avr8\+\_\+irqstub.\+h}}
+\subsubsection[{\texorpdfstring{O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R2\+\_\+\+D\+E\+F\+I\+N\+I\+T\+I\+ON}{OSEE_AVR8_ISR2_DEFINITION}}]{\setlength{\rightskip}{0pt plus 5cm}\#define O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R2\+\_\+\+D\+E\+F\+I\+N\+I\+T\+I\+ON(
+\begin{DoxyParamCaption}
+\item[{}]{v, }
+\item[{}]{t}
+\end{DoxyParamCaption}
+)}\hypertarget{ee__avr8__irqstub_8h_a0927857e4012f3c6b0c48d04edb072c1}{}\label{ee__avr8__irqstub_8h_a0927857e4012f3c6b0c48d04edb072c1}
+{\bfseries Value\+:}
+\begin{DoxyCode}
+\textcolor{comment}{/* Declare The ISR User handler */}    \(\backslash\)
+ISR(v, ISR\_NAKED)                     \(\backslash\)
+\{                                     \(\backslash\)
+  OSEE\_AVR8\_PROVIDE\_IRQ\_ENTRY(v);     \(\backslash\)
+  OSEE\_AVR8\_ISR\_PRESTUB();            \(\backslash\)
+  osEE\_avr8\_isr2\_stub(t);             \(\backslash\)
+  OSEE\_AVR8\_ISR\_POSTSTUB();           \(\backslash\)
+  reti();                             \(\backslash\)
+\}
+\end{DoxyCode}
+\index{ee\+\_\+avr8\+\_\+irqstub.\+h@{ee\+\_\+avr8\+\_\+irqstub.\+h}!O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R\+\_\+\+N\+O\+T\+\_\+\+D\+E\+F\+I\+N\+ED@{O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R\+\_\+\+N\+O\+T\+\_\+\+D\+E\+F\+I\+N\+ED}}
+\index{O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R\+\_\+\+N\+O\+T\+\_\+\+D\+E\+F\+I\+N\+ED@{O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R\+\_\+\+N\+O\+T\+\_\+\+D\+E\+F\+I\+N\+ED}!ee\+\_\+avr8\+\_\+irqstub.\+h@{ee\+\_\+avr8\+\_\+irqstub.\+h}}
+\subsubsection[{\texorpdfstring{O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R\+\_\+\+N\+O\+T\+\_\+\+D\+E\+F\+I\+N\+ED}{OSEE_AVR8_ISR_NOT_DEFINED}}]{\setlength{\rightskip}{0pt plus 5cm}\#define O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R\+\_\+\+N\+O\+T\+\_\+\+D\+E\+F\+I\+N\+ED(
+\begin{DoxyParamCaption}
+\item[{}]{v}
+\end{DoxyParamCaption}
+)}\hypertarget{ee__avr8__irqstub_8h_a4b68acae46dc47c592063a09a06286c1}{}\label{ee__avr8__irqstub_8h_a4b68acae46dc47c592063a09a06286c1}
+{\bfseries Value\+:}
+\begin{DoxyCode}
+\textcolor{comment}{/* Define a NAKED ISR handler */}    \(\backslash\)
+ISR(v, ISR\_NAKED)                   \(\backslash\)
+\{                                   \(\backslash\)
+  OSEE\_AVR8\_PROVIDE\_IRQ\_ENTRY(v);   \(\backslash\)
+  \textcolor{comment}{/* Disables IRQ  */}               \(\backslash\)
+  cli();                            \(\backslash\)
+  \textcolor{comment}{/* Hangs in a infinite loop!!! */} \(\backslash\)
+  for(;;) \{                         \(\backslash\)
+    ;                               \(\backslash\)
+  \}                                 \(\backslash\)
+\}
+\end{DoxyCode}
+\index{ee\+\_\+avr8\+\_\+irqstub.\+h@{ee\+\_\+avr8\+\_\+irqstub.\+h}!O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R\+\_\+\+P\+O\+S\+T\+I\+N\+S\+T\+UB@{O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R\+\_\+\+P\+O\+S\+T\+I\+N\+S\+T\+UB}}
+\index{O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R\+\_\+\+P\+O\+S\+T\+I\+N\+S\+T\+UB@{O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R\+\_\+\+P\+O\+S\+T\+I\+N\+S\+T\+UB}!ee\+\_\+avr8\+\_\+irqstub.\+h@{ee\+\_\+avr8\+\_\+irqstub.\+h}}
+\subsubsection[{\texorpdfstring{O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R\+\_\+\+P\+O\+S\+T\+I\+N\+S\+T\+UB}{OSEE_AVR8_ISR_POSTINSTUB}}]{\setlength{\rightskip}{0pt plus 5cm}\#define O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R\+\_\+\+P\+O\+S\+T\+I\+N\+S\+T\+UB(
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{ee__avr8__irqstub_8h_aa086eaa8f831bc1144ec9194fc2fc919}{}\label{ee__avr8__irqstub_8h_aa086eaa8f831bc1144ec9194fc2fc919}
+{\bfseries Value\+:}
+\begin{DoxyCode}
+\textcolor{keywordflow}{do} \{                                      \(\backslash\)
+  \_\_asm\_\_ \_\_volatile\_\_(\textcolor{stringliteral}{"pop r31\(\backslash\)n"});      \(\backslash\)
+  \_\_asm\_\_ \_\_volatile\_\_(\textcolor{stringliteral}{"pop r30\(\backslash\)n"});      \(\backslash\)
+  \_\_asm\_\_ \_\_volatile\_\_(\textcolor{stringliteral}{"pop r27\(\backslash\)n"});      \(\backslash\)
+  \_\_asm\_\_ \_\_volatile\_\_(\textcolor{stringliteral}{"pop r26\(\backslash\)n"});      \(\backslash\)
+  \_\_asm\_\_ \_\_volatile\_\_(\textcolor{stringliteral}{"pop r23\(\backslash\)n"});      \(\backslash\)
+  \_\_asm\_\_ \_\_volatile\_\_(\textcolor{stringliteral}{"pop r22\(\backslash\)n"});      \(\backslash\)
+  \_\_asm\_\_ \_\_volatile\_\_(\textcolor{stringliteral}{"pop r21\(\backslash\)n"});      \(\backslash\)
+  \_\_asm\_\_ \_\_volatile\_\_(\textcolor{stringliteral}{"pop r20\(\backslash\)n"});      \(\backslash\)
+  \_\_asm\_\_ \_\_volatile\_\_(\textcolor{stringliteral}{"pop r19\(\backslash\)n"});      \(\backslash\)
+  \_\_asm\_\_ \_\_volatile\_\_(\textcolor{stringliteral}{"pop r18\(\backslash\)n"});      \(\backslash\)
+  \_\_asm\_\_ \_\_volatile\_\_(\textcolor{stringliteral}{"pop r0\(\backslash\)n"});       \(\backslash\)
+  \_\_asm\_\_ \_\_volatile\_\_(\textcolor{stringliteral}{"out 0x3f, r0\(\backslash\)n"}); \(\backslash\)
+  \_\_asm\_\_ \_\_volatile\_\_(\textcolor{stringliteral}{"pop r0\(\backslash\)n"});       \(\backslash\)
+  \_\_asm\_\_ \_\_volatile\_\_(\textcolor{stringliteral}{"pop r1\(\backslash\)n"});       \(\backslash\)
+\} \textcolor{keywordflow}{while}(0)
+\end{DoxyCode}
+\index{ee\+\_\+avr8\+\_\+irqstub.\+h@{ee\+\_\+avr8\+\_\+irqstub.\+h}!O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R\+\_\+\+P\+O\+S\+T\+S\+T\+UB@{O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R\+\_\+\+P\+O\+S\+T\+S\+T\+UB}}
+\index{O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R\+\_\+\+P\+O\+S\+T\+S\+T\+UB@{O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R\+\_\+\+P\+O\+S\+T\+S\+T\+UB}!ee\+\_\+avr8\+\_\+irqstub.\+h@{ee\+\_\+avr8\+\_\+irqstub.\+h}}
+\subsubsection[{\texorpdfstring{O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R\+\_\+\+P\+O\+S\+T\+S\+T\+UB}{OSEE_AVR8_ISR_POSTSTUB}}]{\setlength{\rightskip}{0pt plus 5cm}\#define O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R\+\_\+\+P\+O\+S\+T\+S\+T\+UB(
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{ee__avr8__irqstub_8h_a78a9a609f5d2f477384afc5dcc072c38}{}\label{ee__avr8__irqstub_8h_a78a9a609f5d2f477384afc5dcc072c38}
+{\bfseries Value\+:}
+\begin{DoxyCode}
+\textcolor{keywordflow}{do} \{                                \(\backslash\)
+  \_\_asm\_\_ \_\_volatile\_\_(\textcolor{stringliteral}{"pop r25\(\backslash\)n"});\(\backslash\)
+  \_\_asm\_\_ \_\_volatile\_\_(\textcolor{stringliteral}{"pop r24\(\backslash\)n"});\(\backslash\)
+\} \textcolor{keywordflow}{while}(0)
+\end{DoxyCode}
+\index{ee\+\_\+avr8\+\_\+irqstub.\+h@{ee\+\_\+avr8\+\_\+irqstub.\+h}!O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R\+\_\+\+P\+R\+E\+I\+N\+S\+T\+UB@{O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R\+\_\+\+P\+R\+E\+I\+N\+S\+T\+UB}}
+\index{O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R\+\_\+\+P\+R\+E\+I\+N\+S\+T\+UB@{O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R\+\_\+\+P\+R\+E\+I\+N\+S\+T\+UB}!ee\+\_\+avr8\+\_\+irqstub.\+h@{ee\+\_\+avr8\+\_\+irqstub.\+h}}
+\subsubsection[{\texorpdfstring{O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R\+\_\+\+P\+R\+E\+I\+N\+S\+T\+UB}{OSEE_AVR8_ISR_PREINSTUB}}]{\setlength{\rightskip}{0pt plus 5cm}\#define O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R\+\_\+\+P\+R\+E\+I\+N\+S\+T\+UB(
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{ee__avr8__irqstub_8h_a85280c75a600d8930c78a27b8c06a9f6}{}\label{ee__avr8__irqstub_8h_a85280c75a600d8930c78a27b8c06a9f6}
+{\bfseries Value\+:}
+\begin{DoxyCode}
+\textcolor{keywordflow}{do} \{                                      \(\backslash\)
+  \_\_asm\_\_ \_\_volatile\_\_(\textcolor{stringliteral}{"push r1\(\backslash\)n"});      \(\backslash\)
+  \_\_asm\_\_ \_\_volatile\_\_(\textcolor{stringliteral}{"push r0\(\backslash\)n"});      \(\backslash\)
+  \_\_asm\_\_ \_\_volatile\_\_(\textcolor{stringliteral}{"in   r0, 0x3f\(\backslash\)n"});\(\backslash\)
+  \_\_asm\_\_ \_\_volatile\_\_(\textcolor{stringliteral}{"push r0\(\backslash\)n"});      \(\backslash\)
+  \_\_asm\_\_ \_\_volatile\_\_(\textcolor{stringliteral}{"eor  r1, r1\(\backslash\)n"});  \(\backslash\)
+  \_\_asm\_\_ \_\_volatile\_\_(\textcolor{stringliteral}{"push r18\(\backslash\)n"});     \(\backslash\)
+  \_\_asm\_\_ \_\_volatile\_\_(\textcolor{stringliteral}{"push r19\(\backslash\)n"});     \(\backslash\)
+  \_\_asm\_\_ \_\_volatile\_\_(\textcolor{stringliteral}{"push r20\(\backslash\)n"});     \(\backslash\)
+  \_\_asm\_\_ \_\_volatile\_\_(\textcolor{stringliteral}{"push r21\(\backslash\)n"});     \(\backslash\)
+  \_\_asm\_\_ \_\_volatile\_\_(\textcolor{stringliteral}{"push r22\(\backslash\)n"});     \(\backslash\)
+  \_\_asm\_\_ \_\_volatile\_\_(\textcolor{stringliteral}{"push r23\(\backslash\)n"});     \(\backslash\)
+  \_\_asm\_\_ \_\_volatile\_\_(\textcolor{stringliteral}{"push r26\(\backslash\)n"});     \(\backslash\)
+  \_\_asm\_\_ \_\_volatile\_\_(\textcolor{stringliteral}{"push r27\(\backslash\)n"});     \(\backslash\)
+  \_\_asm\_\_ \_\_volatile\_\_(\textcolor{stringliteral}{"push r30\(\backslash\)n"});     \(\backslash\)
+  \_\_asm\_\_ \_\_volatile\_\_(\textcolor{stringliteral}{"push r31\(\backslash\)n"});     \(\backslash\)
+\} \textcolor{keywordflow}{while}(0)
+\end{DoxyCode}
+\index{ee\+\_\+avr8\+\_\+irqstub.\+h@{ee\+\_\+avr8\+\_\+irqstub.\+h}!O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R\+\_\+\+P\+R\+E\+S\+T\+UB@{O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R\+\_\+\+P\+R\+E\+S\+T\+UB}}
+\index{O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R\+\_\+\+P\+R\+E\+S\+T\+UB@{O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R\+\_\+\+P\+R\+E\+S\+T\+UB}!ee\+\_\+avr8\+\_\+irqstub.\+h@{ee\+\_\+avr8\+\_\+irqstub.\+h}}
+\subsubsection[{\texorpdfstring{O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R\+\_\+\+P\+R\+E\+S\+T\+UB}{OSEE_AVR8_ISR_PRESTUB}}]{\setlength{\rightskip}{0pt plus 5cm}\#define O\+S\+E\+E\+\_\+\+A\+V\+R8\+\_\+\+I\+S\+R\+\_\+\+P\+R\+E\+S\+T\+UB(
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{ee__avr8__irqstub_8h_ab2363f17f4ab0389d99f4e2bf6277691}{}\label{ee__avr8__irqstub_8h_ab2363f17f4ab0389d99f4e2bf6277691}
+{\bfseries Value\+:}
+\begin{DoxyCode}
+\textcolor{keywordflow}{do} \{                                  \(\backslash\)
+  \_\_asm\_\_ \_\_volatile\_\_(\textcolor{stringliteral}{"push r24\(\backslash\)n"}); \(\backslash\)
+  \_\_asm\_\_ \_\_volatile\_\_(\textcolor{stringliteral}{"push r25\(\backslash\)n"}); \(\backslash\)
+\} \textcolor{keywordflow}{while}(0)
+\end{DoxyCode}
